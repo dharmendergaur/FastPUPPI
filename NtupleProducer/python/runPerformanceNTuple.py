@@ -8,11 +8,11 @@ process.load('Configuration.StandardSequences.Services_cff')
 process.load("SimGeneral.HepPDTESSource.pythiapdt_cfi")
 process.load("FWCore.MessageLogger.MessageLogger_cfi")
 process.options   = cms.untracked.PSet( wantSummary = cms.untracked.bool(True), allowUnscheduled = cms.untracked.bool(False) )
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1))
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(100))
 process.MessageLogger.cerr.FwkReport.reportEvery = 1
 
 process.source = cms.Source("PoolSource",
-    fileNames = cms.untracked.vstring('file:inputs125X.root'),
+    fileNames = cms.untracked.vstring('file:/eos/cms/store/cmst3/group/l1tr/gpetrucc/12_5_X/NewInputs125X/150223/SingleNeutrino_PU200/inputs125X_9.root'),
     inputCommands = cms.untracked.vstring("keep *", 
             "drop l1tPFClusters_*_*_*",
             "drop l1tPFTracks_*_*_*",
@@ -122,6 +122,8 @@ process.ntuple = cms.EDAnalyzer("ResponseNTuplizer",
 
 process.extraPFStuff.add(process.l1tPFTracksFromL1Tracks)
 
+
+
 process.l1pfjetTable = cms.EDProducer("L1PFJetTableProducer",
     gen = cms.InputTag("ak4GenJetsNoNu"),
     commonSel = cms.string("pt > 5 && abs(eta) < 5.0"),
@@ -135,6 +137,11 @@ process.l1pfjetTable = cms.EDProducer("L1PFJetTableProducer",
         nDau = cms.string("numberOfDaughters()"),
     ),
 )
+ 
+# # Modification 1  
+# process.extraPFStuff.add(process.L1TPFHistoSeedJetsTask)
+# process.l1pfjetTable.jets.histo9x9SCPuppi = cms.InputTag('l1t9x9HistoSeedsSCPFL1PuppiEmulator')
+#----------------
 
 process.l1pfmetTable = cms.EDProducer("L1PFMetTableProducer",
     genMet = cms.InputTag("genMetTrue"), 
@@ -157,6 +164,48 @@ process.p = cms.Path(
         process.l1pfmetTable + process.l1pfmetCentralTable
         )
 process.p.associate(process.extraPFStuff)
+
+
+# Modification 3  
+process.extraPFStuff.add(process.L1TPFHistoSeedJetsTask)
+process.l1pfjetTable.jets.HSC9x9Corr = cms.InputTag('l1tHistoSeedsSCPFL1PuppiCorrectedEmulator')
+#----------------
+process.extraPFStuff.add(process.L1TPF7x7HistoSeedJetsTask)
+process.l1pfjetTable.jets.HSC7x7 = cms.InputTag('l1t7x7HistoSeedsSCPFL1PuppiCorrectedEmulator')
+
+process.extraPFStuff.add(process.L1TPF5x5HistoSeedJetsTask)
+process.l1pfjetTable.jets.HSC5x5 = cms.InputTag('l1t5x5HistoSeedsSCPFL1PuppiCorrectedEmulator')
+#----------------with DC
+process.extraPFStuff.add(process.L1TPFHistoSeedJetsTaskDC)
+process.l1pfjetTable.jets.HSC9x9CorrDC = cms.InputTag('l1tHistoSeedsSCPFL1PuppiCorrectedEmulatorDC')
+#----------------
+process.extraPFStuff.add(process.L1TPF7x7HistoSeedJetsTaskDC)
+process.l1pfjetTable.jets.HSC7x7DC = cms.InputTag('l1t7x7HistoSeedsSCPFL1PuppiCorrectedEmulatorDC')
+
+process.extraPFStuff.add(process.L1TPF5x5HistoSeedJetsTaskDC)
+process.l1pfjetTable.jets.HSC5x5DC = cms.InputTag('l1t5x5HistoSeedsSCPFL1PuppiCorrectedEmulatorDC')
+
+#----------------------------------------------------Modification 2
+# def addPhase1Jets():
+#     process.extraPFStuff.add(process.l1tPhase1JetProducer9x9, process.l1tPhase1JetCalibrator9x9, process.l1tPhase1JetSumsProducer9x9)
+#     process.extraPFStuff.add(process.l1tPhase1JetProducer9x9trimmed, process.l1tPhase1JetCalibrator9x9trimmed, process.l1tPhase1JetSumsProducer9x9trimmed)
+#     process.l1pfjetTable.jets.phase19x9Puppi = cms.InputTag('l1tPhase1JetProducer9x9', "Uncalibratedl1tPhase1JetFromPfCandidates")
+#     process.l1pfjetTable.jets.phase19x9PuppiCorr = cms.InputTag('l1tPhase1JetCalibrator9x9', "Phase1L1TJetFromPfCandidates")
+#     process.l1pfjetTable.jets.phase19x9trimmedPuppi = cms.InputTag('l1tPhase1JetProducer9x9trimmed', "UncalibratedPhase1L1TJetFromPfCandidates")
+#     process.l1pfjetTable.jets.phase19x9trimmedPuppiCorr = cms.InputTag('l1tPhase1JetCalibrator9x9trimmed', "Phase1L1TJetFromPfCandidates")
+#     process.l1pfmetTable.mets.scPuppiCorrMHT = cms.InputTag("l1tSCPFL1PuppiCorrectedEmulatorMHT")
+# def addPhase1Jets():
+#     process.extraPFStuff.add(process.l1tPhase1JetProducer9x9, process.l1tPhase1JetCalibrator9x9, process.l1tPhase1JetSumsProducer9x9)
+#     process.extraPFStuff.add(process.l1tPhase1JetProducer9x9trimmed, process.l1tPhase1JetCalibrator9x9trimmed, process.l1tPhase1JetSumsProducer9x9trimmed)
+#     process.l1pfjetTable.jets.phase19x9Puppi = cms.InputTag('l1tPhase1JetProducer9x9', "Uncalibratedl1tPhase1JetFromPfCandidates")
+#     process.l1pfjetTable.jets.phase19x9PuppiCorr = cms.InputTag('l1tPhase1JetCalibrator9x9', "l1tPhase1JetFromPfCandidates")
+#     process.l1pfjetTable.jets.phase19x9trimmedPuppi = cms.InputTag('l1tPhase1JetProducer9x9trimmed', "Uncalibratedl1tPhase1JetFromPfCandidates")
+#     process.l1pfjetTable.jets.phase19x9trimmedPuppiCorr = cms.InputTag('l1tPhase1JetCalibrator9x9trimmed', "l1tPhase1JetFromPfCandidates")
+#     process.l1pfmetTable.mets.scPuppiCorrMHT = cms.InputTag("l1tSCPFL1PuppiCorrectedEmulatorMHT")
+    
+# addPhase1Jets();
+#----------------------------------------------------------
+
 process.TFileService = cms.Service("TFileService", fileName = cms.string("perfTuple.root"))
 
 # for full debug:
@@ -165,6 +214,10 @@ process.TFileService = cms.Service("TFileService", fileName = cms.string("perfTu
 #                               SelectEvents = cms.untracked.PSet(SelectEvents = cms.vstring("p"))
 #                           )
 #process.end = cms.EndPath(process.out)
+
+
+
+
 
 process.outnano = cms.OutputModule("NanoAODOutputModule",
     fileName = cms.untracked.string("perfNano.root"),

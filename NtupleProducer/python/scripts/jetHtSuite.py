@@ -241,6 +241,19 @@ whats = WHATS + [
         ("Emu Flt",    "L1PuppiTkFlt$",  ROOT.kRed+1, 20, 1.7),
         ("Emu Int",    "L1PuppiTkEmu$",  ROOT.kAzure+1, 20, 1.4),
     ]),
+    ('test_1',[
+        ("9x9HSC",    "HSC9x9Corr$",       ROOT.kGray+2, 20, 2.0),
+        ("7x7HSC",    "HSC7x7$",  ROOT.kRed+1, 20, 1.7),
+        ("5x5HSC",    "HSC5x5$",  ROOT.kGreen+1, 20, 1.4),
+    ]),
+    ('test_DC',[
+        ("9x9HSC",    "HSC9x9Corr$",       ROOT.kGray+2, 20, 2.0),
+        ("9x9_DC_allowed",    "HSC9x9CorrDC$",       ROOT.kViolet+2, 20, 2.0),
+        ("7x7HSC",    "HSC7x7$",  ROOT.kRed+1, 20, 1.7),
+        ("7x7_DC_allowed",    "HSC7x7DC$",  ROOT.kBlue+1, 20, 1.7),
+        ("5x5HSC",    "HSC5x5$",  ROOT.kGreen+1, 20, 1.4),
+        ("5x5_DC_allowed",    "HSC5x5DC$",  ROOT.kOrange+1, 20, 1.4),
+    ]),
     ('l1pfmu_test',[
         ("Gen",  "GenMu",   ROOT.kGray+2, 20, 2.0),
         ("Sta",  "StaMu",   ROOT.kRed+1,  20, 1.8),

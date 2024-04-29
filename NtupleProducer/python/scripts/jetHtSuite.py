@@ -254,6 +254,44 @@ whats = WHATS + [
         ("5x5HSC",    "HSC5x5$",  ROOT.kGreen+1, 20, 1.4),
         ("5x5_DC_allowed",    "HSC5x5DC$",  ROOT.kOrange+1, 20, 1.4),
     ]),
+    ('test_DC_9',[
+        ("9x9HSC",    "HSC9x9Corr$",       ROOT.kGray+2, 20, 2.0),
+        ("9x9_DC_allowed",    "HSC9x9CorrDC$",       ROOT.kViolet+2, 20, 2.0),
+    ]),
+    ('test_DC_7',[
+        ("7x7HSC",    "HSC7x7$",  ROOT.kRed+1, 20, 1.7),
+        ("7x7_DC_allowed",    "HSC7x7DC$",  ROOT.kBlue+1, 20, 1.7),
+    ]),
+    ('test_DC_5',[
+        ("5x5HSC",    "HSC5x5$",  ROOT.kGreen+1, 20, 1.4),
+        ("5x5_DC_allowed",    "HSC5x5DC$",  ROOT.kOrange+1, 20, 1.4),
+    ]),
+    ('test_DC_9T',[
+        ("9x9HSC",    "HSC9x9$",       ROOT.kGray+2, 20, 2.0),
+        ("9x9_DC_allowed",    "HSC9x9DC$",       ROOT.kViolet+2, 20, 2.0),
+    ]),
+    ('test_DC_9TDC',[
+         ("9x9_untrimmed",    "HSC9x9Corr$",       ROOT.kGray+2, 20, 2.0),
+         ("9x9_Trimmed",    "HSC9x9$",       ROOT.kGreen+2, 20, 2.0),
+        ("9x9_with_DC_untrimmed",    "HSC9x9CorrDC$",       ROOT.kViolet+2, 20, 2.0),
+        ("9x9_with_DC_Trimmed",    "HSC9x9DC$",       ROOT.kOrange+2, 20, 2.0),
+    ]),
+    ('test_DC_7T',[
+        ("7x7HSC",    "HSC7x7T$",  ROOT.kRed+1, 20, 1.7),
+        ("7x7_DC_allowed",    "HSC7x7TDC$",  ROOT.kBlue+1, 20, 1.7),
+    ]),
+    ('test_Ex',[
+         ("scPuppiSim",    "scPuppiSim$",       ROOT.kGray+2, 20, 2.0),
+         ("scExPuppiSim",    "scExPuppiSim$",       ROOT.kGreen+2, 20, 2.0),
+        ("scPuppi",    "scPuppi$",       ROOT.kViolet+2, 20, 2.0),
+        ("scExPuppi",    "scExPuppi$",       ROOT.kOrange+2, 20, 2.0),
+        ("scPuppiCorr",    "scPuppiCorr$",       ROOT.kRed+2, 20, 2.0),
+        ("scExPuppiCorr",    "scExPuppiCorr$",       ROOT.kBlue+2, 20, 2.0),
+    ]),
+    ('test_Ex_1',[
+         ("scPuppiCorr",    "scPuppiCorr$",       ROOT.kRed+2, 20, 2.0),
+        ("scExPuppiCorr",    "scExPuppiCorr$",       ROOT.kBlue+2, 20, 2.0),
+     ]),
     ('l1pfmu_test',[
         ("Gen",  "GenMu",   ROOT.kGray+2, 20, 2.0),
         ("Sta",  "StaMu",   ROOT.kRed+1,  20, 1.8),
@@ -314,7 +352,7 @@ parser.add_option("-W", dest="what_reg",     default=None, help="Choose set (inp
 parser.add_option("-P","--plots", dest="plots", default="rate,isorate,roc,effc,plateff,platroc", help="Choose plot or comma-separated list of plots") 
 parser.add_option("-j","--jecs", dest="jecs", default="jecs.root", help="Choose JEC file")
 parser.add_option("--jm","--jec-method", dest="jecMethod", default="", help="Choose JEC method")
-parser.add_option("-R","--raw", dest="rawJets", default=False, action="store_true", help="Don't appy JECs")
+parser.add_option("-R","--raw", dest="rawJets", default=True, action="store_true", help="Don't appy JECs")
 parser.add_option("-s", dest="genht",  default=None, type="float", help="Choose gen ht")
 parser.add_option("-E", dest="eff",  default=None, type="string", help="Choose plateau efficiency")
 parser.add_option("-r", dest="rate",  default="10,20,50", type="string", help="Choose rate [kHz] (for isorate plots, can specify more than one)")
@@ -613,7 +651,7 @@ for plotkind in options.plots.split(","):
           for name,obj,col,msty,msiz in things:
               obj = obj.rstrip("$")
               if (name == "Gen") or ("GenAcc" in obj): continue
-              if options.var.startswith("met") or obj.startswith("Ref") or ("Corr" in obj) or not isJetMet:
+              if options.var.startswith("met") or obj.startswith("Ref") or ("Corr" in obj) or options.rawJets or not isJetMet:
                   jecs = ROOT.nullptr
               else:
                   jecdirname = obj+"Jets"+( "_"+options.jecMethod if options.jecMethod else "")
@@ -624,6 +662,7 @@ for plotkind in options.plots.split(","):
                   jecs = ROOT.l1tpf.corrector(jecdir)
               label = name
               ptcut = options.pt
+              #jecs = ROOT.nullptr
               if "RefTwoLayerJets" in obj: ptcut = 5
               if plotkind == "rate":
                   if isJetMet:

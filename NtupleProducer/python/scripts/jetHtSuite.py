@@ -180,6 +180,55 @@ whats = WHATS + [
         ("Puppi",     "L1OldPuppi",       ROOT.kBlue+1, 21, 1.5),
         ("Puppi4MET", "L1OldPuppiForMET", ROOT.kAzure+10, 21, 1.5),
     ]),
+    ('test_1',[
+        ("9x9HSC",    "HSC9x9Corr$",       ROOT.kGray+2, 20, 2.0),
+        ("7x7HSC",    "HSC7x7$",  ROOT.kRed+1, 20, 1.7),
+        ("5x5HSC",    "HSC5x5$",  ROOT.kGreen+1, 20, 1.4),
+    ]),
+    ('test_DC',[
+        ("9x9HSC",    "HSC9x9Corr$",       ROOT.kGray+2, 20, 2.0),
+        ("9x9_DC_allowed",    "HSC9x9CorrDC$",       ROOT.kViolet+2, 20, 2.0),
+        ("7x7HSC",    "HSC7x7$",  ROOT.kRed+1, 20, 1.7),
+        ("7x7_DC_allowed",    "HSC7x7DC$",  ROOT.kBlue+1, 20, 1.7),
+        ("5x5HSC",    "HSC5x5$",  ROOT.kGreen+1, 20, 1.4),
+        ("5x5_DC_allowed",    "HSC5x5DC$",  ROOT.kOrange+1, 20, 1.4),
+    ]),
+    ('test_DC_SC8',[
+        ("HSC_SC8",    "HSC9x9SC8$",       ROOT.kRed+1, 24, 2.0,),
+        ("HSC8_DC_allowed",    "HSC9x9SC8DC$",       ROOT.kBlue+1, 20, 2.0),
+    ]),
+    ('test_DC_SC8_SC4',[
+        ("HSC0.8",    "HSC9x9SC8$",       ROOT.kRed+1, 24, 2.0,),
+        ("HSC8_DC_allowed",    "HSC9x9SC8DC$",       ROOT.kBlue+1, 20, 2.0),
+        ("HSC0.4",    "HSC9x9Corr$",       ROOT.kGray+2, 24, 2.0),
+        ("HSC4_DC_allowed",    "HSC9x9CorrDC$",    ROOT.kViolet+2, 20, 2.0),
+    ]),
+    ('test_DC_9',[
+        ("9x9HSC",    "HSC9x9Corr$",       ROOT.kRed+1, 24, 2.0,),
+        ("9x9_DC_allowed",    "HSC9x9CorrDC$",       ROOT.kBlue+1, 20, 2.0),
+    ]),
+    ('test_DC_7',[
+        ("7x7HSC",    "HSC7x7$",  ROOT.kRed+1, 20, 1.7),
+        ("7x7_DC_allowed",    "HSC7x7DC$",  ROOT.kBlue+1, 20, 1.7),
+    ]),
+    ('test_DC_5',[
+        ("5x5HSC",    "HSC5x5$",  ROOT.kGreen+1, 20, 1.4),
+        ("5x5_DC_allowed",    "HSC5x5DC$",  ROOT.kOrange+1, 20, 1.4),
+    ]),
+    ('test_DC_9T',[
+        ("9x9HSC",    "HSC9x9$",       ROOT.kGray+2, 20, 2.0),
+        ("9x9_DC_allowed",    "HSC9x9DC$",    ROOT.kViolet+2, 20, 2.0),
+    ]),
+    ('test_DC_9TDC',[
+         ("9x9_untrimmed",    "HSC9x9Corr$",       ROOT.kGray+2, 20, 2.0),
+         ("9x9_Trimmed",    "HSC9x9$",       ROOT.kGreen+2, 20, 2.0),
+        ("9x9_with_DC_untrimmed",    "HSC9x9CorrDC$",       ROOT.kViolet+2, 20, 2.0),
+        ("9x9_with_DC_Trimmed",    "HSC9x9DC$",       ROOT.kOrange+2, 20, 2.0),
+    ]),
+    ('test_DC_7T',[
+        ("7x7HSC",    "HSC7x7T$",  ROOT.kRed+1, 20, 1.7),
+        ("7x7_DC_allowed",    "HSC7x7TDC$",  ROOT.kBlue+1, 20, 1.7),
+    ]),
     ('newcomp',[
         ("Calo",      "L1Calo",        ROOT.kViolet+2, 20, 1.5),
         ("TK 5s",     "L1TKV5",        ROOT.kRed+1, 24, 1.5),
@@ -325,7 +374,7 @@ options, args = parser.parse_args()
 tfiles = [ROOT.TFile.Open(f) for f in args[:2]]
 
 odir = args[2] 
-plotter = plotTemplate(odir, defaultExts = (["png","eps","pdf"] if options.printQualityPlots else ["png"]))
+plotter = plotTemplate(odir, defaultExts = (["png","eps","pdf"] if options.printQualityPlots else ["pdf"]))
 
 ROOT.gSystem.Load("libL1TriggerPhase2L1ParticleFlow")
 ROOT.gInterpreter.ProcessLine('#include "L1Trigger/Phase2L1ParticleFlow/interface/corrector.h"')
@@ -490,6 +539,9 @@ def makePlatEffPlot(signal, background, what, obj, ptcut, jecs, plotparam, _cach
     elif rate < 500: ratestr = "%.0fkHz" % rate
     else:            ratestr = "%.1fMHz" % (rate/1000)
     label = "%s @ %s" % (name, ratestr)
+    # #   myedit
+    # if name == "9x9_DC_allowed":
+    #     plot.SetMarkerStyle(24);
     _cache[_key] = (plot,label)
     return (plot,label)
 
@@ -702,7 +754,10 @@ for plotkind in options.plots.split(","):
               else: raise RuntimeError
               if not plot: continue
               plot.SetLineWidth(3); plot.SetLineColor(col);  plot.SetMarkerColor(col)
-              plot.SetMarkerStyle(msty); plot.SetMarkerSize(msiz)
+              plot.SetMarkerStyle(msty); plot.SetMarkerSize(msiz) 
+            #   edit1
+            #   if label == "9x9_DC_allowed":
+            #     plot.SetMarkerStyle(24); plot.SetMarkerSize(msiz)
               plots.append((label,plot))
           if not plots: 
               print("   nothing to plot!")

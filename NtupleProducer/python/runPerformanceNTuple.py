@@ -8,11 +8,11 @@ process.load('Configuration.StandardSequences.Services_cff')
 process.load("SimGeneral.HepPDTESSource.pythiapdt_cfi")
 process.load("FWCore.MessageLogger.MessageLogger_cfi")
 process.options   = cms.untracked.PSet( wantSummary = cms.untracked.bool(True), allowUnscheduled = cms.untracked.bool(False) )
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1))
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(2000))
 process.MessageLogger.cerr.FwkReport.reportEvery = 1
 
 process.source = cms.Source("PoolSource",
-    fileNames = cms.untracked.vstring('file:inputs125X.root'),
+    fileNames = cms.untracked.vstring('file:/eos/cms/store/cmst3/group/l1tr/cerminar/14_0_X/fpinputs_131X/v3/TTbar_PU200/inputs131X_10.root'),
     inputCommands = cms.untracked.vstring("keep *", 
             "drop l1tPFClusters_*_*_*",
             "drop l1tPFTracks_*_*_*",
@@ -155,6 +155,69 @@ monitorPerf("L1Puppi", "l1tLayer1:Puppi")
 
 # to check available tags:
 #process.content = cms.EDAnalyzer("EventContentAnalyzer")
+
+# modification start ---------
+
+
+#----------------with SC
+process.extraPFStuff.add(process.L1TPFHistoSeedJetsTaskSC)
+process.l1pfjetTable.jets.HSC9x9CorrSC = cms.InputTag('l1tHistoSeedsSCPFL1PuppiCorrectedEmulatorSC')
+#----------------
+#7x7  with SC
+process.extraPFStuff.add(process.L1TPF7x7HistoSeedJetsTaskSC)
+process.l1pfjetTable.jets.HSC7x7SC = cms.InputTag('l1t7x7HistoSeedsSCPFL1PuppiCorrectedEmulatorSC')
+#5x5 with SC
+process.extraPFStuff.add(process.L1TPF5x5HistoSeedJetsTaskSC)
+process.l1pfjetTable.jets.HSC5x5SC = cms.InputTag('l1t5x5HistoSeedsSCPFL1PuppiCorrectedEmulatorSC')
+
+# SC8 9x9 --with SC
+process.extraPFStuff.add(process.L1TPF9x9HistoSeed8JetsTaskSC)
+process.l1pfjetTable.jets.HSC9x9SC8SC = cms.InputTag('l1t9x9HistoSeedsSC8PFL1PuppiCorrectedEmulatorSC')
+
+
+
+# SC8 9x9 --without DC
+process.extraPFStuff.add(process.L1TPF9x9HistoSeed8JetsTask)
+process.l1pfjetTable.jets.HSC9x9SC8 = cms.InputTag('l1t9x9HistoSeedsSC8PFL1PuppiCorrectedEmulator')
+
+# SC8 9x9 --with DC
+process.extraPFStuff.add(process.L1TPF9x9HistoSeed8JetsTaskDC)
+process.l1pfjetTable.jets.HSC9x9SC8DC = cms.InputTag('l1t9x9HistoSeedsSC8PFL1PuppiCorrectedEmulatorDC')
+
+
+#9x9  
+process.extraPFStuff.add(process.L1TPFHistoSeedJetsTask)
+process.l1pfjetTable.jets.HSC9x9Corr = cms.InputTag('l1tHistoSeedsSCPFL1PuppiCorrectedEmulator')
+#----------------
+#9x9   with trimmed
+process.extraPFStuff.add(process.L1TPF9x9HistoSeedJetsTask)
+process.l1pfjetTable.jets.HSC9x9 = cms.InputTag('l1t9x9HistoSeedsSCPFL1PuppiCorrectedEmulator')
+#7x7
+process.extraPFStuff.add(process.L1TPF7x7HistoSeedJetsTask)
+process.l1pfjetTable.jets.HSC7x7 = cms.InputTag('l1t7x7HistoSeedsSCPFL1PuppiCorrectedEmulator')
+#5x5
+process.extraPFStuff.add(process.L1TPF5x5HistoSeedJetsTask)
+process.l1pfjetTable.jets.HSC5x5 = cms.InputTag('l1t5x5HistoSeedsSCPFL1PuppiCorrectedEmulator')
+#----------------with DC
+process.extraPFStuff.add(process.L1TPFHistoSeedJetsTaskDC)
+process.l1pfjetTable.jets.HSC9x9CorrDC = cms.InputTag('l1tHistoSeedsSCPFL1PuppiCorrectedEmulatorDC')
+#----------------
+#9x9 trimmed with DC
+process.extraPFStuff.add(process.L1TPF9x9HistoSeedJetsTaskDC)
+process.l1pfjetTable.jets.HSC9x9DC = cms.InputTag('l1t9x9HistoSeedsSCPFL1PuppiCorrectedEmulatorDC')
+#7x7 trimmed with DC
+process.extraPFStuff.add(process.L1TPF7x7THistoSeedJetsTaskDC)
+process.l1pfjetTable.jets.HSC7x7TDC = cms.InputTag('l1t7x7THistoSeedsSCPFL1PuppiCorrectedEmulatorDC')
+#7x7  with DC
+process.extraPFStuff.add(process.L1TPF7x7HistoSeedJetsTaskDC)
+process.l1pfjetTable.jets.HSC7x7DC = cms.InputTag('l1t7x7HistoSeedsSCPFL1PuppiCorrectedEmulatorDC')
+#5x5 with DC
+process.extraPFStuff.add(process.L1TPF5x5HistoSeedJetsTaskDC)
+process.l1pfjetTable.jets.HSC5x5DC = cms.InputTag('l1t5x5HistoSeedsSCPFL1PuppiCorrectedEmulatorDC')
+
+# modification end ---------
+
+
 process.p = cms.Path(
         process.ntuple + #process.content +
         process.l1pfjetTable + 

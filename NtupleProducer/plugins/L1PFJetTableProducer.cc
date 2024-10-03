@@ -87,6 +87,7 @@ L1PFJetTableProducer::produce(edm::StreamID id, edm::Event& iEvent, const edm::E
     edm::Handle<reco::CandidateView> src;
     std::vector<const reco::Candidate *> selected, matched;
     std::vector<float> vals_pt, vals_eta, vals_phi, vals_mass;
+    std::vector<float> vals_phi_gen, vals_eta_gen, vals_mass_gen;   //edit for adding matched gen eta, phi, mass
     for (auto & jets : jets_) {
         // get and select
         iEvent.getByToken(jets.src, src);
@@ -133,11 +134,18 @@ L1PFJetTableProducer::produce(edm::StreamID id, edm::Event& iEvent, const edm::E
         vals_eta.resize(njets); 
         vals_phi.resize(njets); 
         vals_mass.resize(njets); 
+        vals_phi_gen.resize(njets);     //edit for adding matched gen phi
+        vals_eta_gen.resize(njets);     //edit for adding matched gen eta
+        vals_mass_gen.resize(njets);    //edit for adding matched gen mass
+
         for (unsigned int i = 0; i < njets; ++i) {
             vals_pt[i] = selected[i]->pt();
             vals_eta[i] = selected[i]->eta();
             vals_phi[i] = selected[i]->phi();
             vals_mass[i] = selected[i]->mass();
+            vals_eta_gen[i] = selected[i]->eta();
+            vals_phi_gen[i] = selected[i]->phi();
+            vals_mass_gen[i] = selected[i]->mass();
         }
         out->addColumn<float>("pt", vals_pt, "pt of jet");
         out->addColumn<float>("eta", vals_eta, "eta of jet");
@@ -149,14 +157,25 @@ L1PFJetTableProducer::produce(edm::StreamID id, edm::Event& iEvent, const edm::E
             for (unsigned int i = 0; i < njets; ++i) {
                 if (matched[i] != nullptr) {
                     vals_pt[i] = matched[i]->pt();
+                    vals_phi[i] = matched[i]->pt();
+                    vals_eta[i] = matched[i]->pt();
                     vals_eta[i] = deltaR(*selected[i], *matched[i]);;
+                    vals_eta_gen[i] = matched[i]->eta_std();
+                    vals_phi_gen[i] = matched[i]->phi();
+                    vals_mass_gen[i] = matched[i]->mass();
                 } else {
                     vals_pt[i] = 0;
                     vals_eta[i] = 99.9;
+                    vals_eta_gen[i] = 99.9;
+                    vals_phi_gen[i] = 99.9;
+                    vals_mass_gen[i] = 0;
                 }
             }
             out->addColumn<float>("genpt", vals_pt, "pt of matched gen jet");
-            out->addColumn<float>("gendr", vals_eta, "dr of matched gen jet");
+            out->addColumn<float>("geneta", vals_eta_gen, "eta of matched gen jet");
+            out->addColumn<float>("genphi", vals_phi_gen, "phi of matched gen jet");
+            out->addColumn<float>("gendeltar", vals_eta, "dr of matched gen jet");
+            out->addColumn<float>("genmass", vals_mass_gen, "mass of matched gen jet");
         }
 
         // fill extra vars

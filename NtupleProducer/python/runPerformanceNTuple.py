@@ -62,6 +62,22 @@ process.extraPFStuff.add(
     process.genMetCentralTrue
 )
 
+# AK8 ---start
+process.load('RecoJets.Configuration.GenJetParticles_cff')
+process.extraPFStuff.add(process.genParticlesForJetsNoNu)
+
+from RecoJets.JetProducers.ak8GenJets_cfi import ak8GenJets
+ak8GenJetsNoNu = ak8GenJets.clone( src = "genParticlesForJetsNoNu" )
+setattr(process, 'ak8GenJetsNoNu', ak8GenJetsNoNu)
+
+ak8GenJetsNoNuTask = cms.Task(ak8GenJetsNoNu)
+setattr(process, 'ak8GenJetsNoNuTask', ak8GenJetsNoNuTask)
+process.extraPFStuff.add(process.ak8GenJetsNoNuTask)
+
+
+# AK8 ---end
+
+
 def monitorPerf(label, tag, makeResp=True, makeRespSplit=True, makeJets=True, makeMET=True, makeCentralMET=True,
                 makeInputMultiplicities=False, makeOutputMultiplicities=False, saveCands=False):
     def _add(name, what):
@@ -109,7 +125,7 @@ def monitorPerf(label, tag, makeResp=True, makeRespSplit=True, makeJets=True, ma
             process.ntuple.copyVecUInts.append( "%s:vecN%s%s" % (D,P,O))    
 
 process.ntuple = cms.EDAnalyzer("ResponseNTuplizer",
-    genJets = cms.InputTag("ak4GenJetsNoNu"),
+    genJets = cms.InputTag("ak8GenJetsNoNu"),
     genParticles = cms.InputTag("genParticles"),
     isParticleGun = cms.bool(False),
     writeExtraInfo = cms.bool(False),
@@ -127,13 +143,13 @@ process.ntuple = cms.EDAnalyzer("ResponseNTuplizer",
 process.extraPFStuff.add(process.l1tPFTracksFromL1Tracks)
 
 process.l1pfjetTable = cms.EDProducer("L1PFJetTableProducer",
-    gen = cms.InputTag("ak4GenJetsNoNu"),
+    gen = cms.InputTag("ak8GenJetsNoNu"),
     commonSel = cms.string("pt > 5 && abs(eta) < 5.0"),
-    drMax = cms.double(0.2),
+    drMax = cms.double(0.4),
     minRecoPtOverGenPt = cms.double(0.1),
     jets = cms.PSet(
-        Gen = cms.InputTag("ak4GenJetsNoNu"),
-        Gen_sel = cms.string("pt > 15"),
+        Gen = cms.InputTag("ak8GenJetsNoNu"),
+        Gen_sel = cms.string("pt > 0"),
     ),
     moreVariables = cms.PSet(
         nDau = cms.string("numberOfDaughters()"),

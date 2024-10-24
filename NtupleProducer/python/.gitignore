@@ -7,3 +7,5 @@ respTuple*.root
 runPerformanceNTuple_*job*
 runPerformanceNTuple_*sh
 runPerformanceNTuple_*log
+PU*.root
+Signal*.root

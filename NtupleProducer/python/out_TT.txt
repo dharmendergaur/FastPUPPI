@@ -1,0 +1,4133 @@
+nohup: ignoring input
+Report file will be called runPerformanceNTuple_TTbar_PU200.report.txt
+Using input files from /eos/cms/store/cmst3/group/l1tr/cerminar/14_0_X/fpinputs_131X/v3/TTbar_PU200/inputs131X_*root
+Found 45 files, jobs set to 8, files per job 6.
+Found enabled NanoAODOutputModule (NANO) output module outnano producing perfNano.root
+Must handle TFileService producing perfTuple.root
+Will create job 1, source runPerformanceNTuple_TTbar_PU200_job1.py
+Will create job 2, source runPerformanceNTuple_TTbar_PU200_job2.py
+Will create job 3, source runPerformanceNTuple_TTbar_PU200_job3.py
+Will create job 4, source runPerformanceNTuple_TTbar_PU200_job4.py
+Will create job 5, source runPerformanceNTuple_TTbar_PU200_job5.py
+Will create job 6, source runPerformanceNTuple_TTbar_PU200_job6.py
+Will create job 7, source runPerformanceNTuple_TTbar_PU200_job7.py
+Will create job 8, source runPerformanceNTuple_TTbar_PU200_job8.py
+Will create merge job outnano, source runPerformanceNTuple_TTbar_PU200_merge_outnano.sh
+Will create TFileService merge job, source runPerformanceNTuple_TTbar_PU200_merge_TFileService.sh
+Will create reort script runPerformanceNTuple_TTbar_PU200_report.sh
+Will create bash driver script  source runPerformanceNTuple_TTbar_PU200_local.sh
+Will create cleanup script runPerformanceNTuple_TTbar_PU200_cleanup.sh
+[H[2J[3JAt Tue Oct  1 19:02:17 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 0 (files: 0)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 0 (files: 0)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 0 (files: 0)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 0 (files: 0)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 0 (files: 0)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 0 (files: 0)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 0 (files: 0)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 0 (files: 0)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:02:23 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 0 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 0 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 0 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 0 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 0 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 0 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 0 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 0 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:02:28 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 0 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 0 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 0 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 0 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 0 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 0 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (0.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:02:33 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:02:38 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:02:44 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:02:49 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1 (files: 1)
+	time: 0 s = 0.0 m = 0.00 h (1.0 events/min; 0.00 mins/1ev, 0.00 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:02:54 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 57 (files: 1)
+	time: 28 s = 0.5 m = 0.01 h (122.1 events/min; 8.19 mins/1kev, 491.23 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 41 (files: 1)
+	time: 25 s = 0.4 m = 0.01 h (98.4 events/min; 1.02 mins/100ev, 609.76 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 51 (files: 1)
+	time: 25 s = 0.4 m = 0.01 h (122.4 events/min; 8.17 mins/1kev, 490.20 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 53 (files: 1)
+	time: 25 s = 0.4 m = 0.01 h (127.2 events/min; 7.86 mins/1kev, 471.70 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 50 (files: 1)
+	time: 27 s = 0.5 m = 0.01 h (111.1 events/min; 9.00 mins/1kev, 540.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 39 (files: 1)
+	time: 26 s = 0.4 m = 0.01 h (90.0 events/min; 1.11 mins/100ev, 666.67 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 42 (files: 1)
+	time: 25 s = 0.4 m = 0.01 h (100.8 events/min; 9.92 mins/1kev, 595.24 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 54 (files: 1)
+	time: 26 s = 0.4 m = 0.01 h (124.6 events/min; 8.02 mins/1kev, 481.48 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:03:00 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 120 (files: 1)
+	time: 33 s = 0.6 m = 0.01 h (218.2 events/min; 4.58 mins/1kev, 275.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 86 (files: 1)
+	time: 30 s = 0.5 m = 0.01 h (172.0 events/min; 5.81 mins/1kev, 348.84 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 116 (files: 1)
+	time: 31 s = 0.5 m = 0.01 h (224.5 events/min; 4.45 mins/1kev, 267.24 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 119 (files: 1)
+	time: 31 s = 0.5 m = 0.01 h (230.3 events/min; 4.34 mins/1kev, 260.50 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 107 (files: 1)
+	time: 32 s = 0.5 m = 0.01 h (200.6 events/min; 4.98 mins/1kev, 299.07 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 101 (files: 1)
+	time: 31 s = 0.5 m = 0.01 h (195.5 events/min; 5.12 mins/1kev, 306.93 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 101 (files: 1)
+	time: 31 s = 0.5 m = 0.01 h (195.5 events/min; 5.12 mins/1kev, 306.93 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 114 (files: 1)
+	time: 31 s = 0.5 m = 0.01 h (220.6 events/min; 4.53 mins/1kev, 271.93 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:03:05 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 187 (files: 1)
+	time: 38 s = 0.6 m = 0.01 h (295.3 events/min; 3.39 mins/1kev, 203.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 137 (files: 1)
+	time: 36 s = 0.6 m = 0.01 h (228.3 events/min; 4.38 mins/1kev, 262.77 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 180 (files: 1)
+	time: 36 s = 0.6 m = 0.01 h (300.0 events/min; 3.33 mins/1kev, 200.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 182 (files: 1)
+	time: 36 s = 0.6 m = 0.01 h (303.3 events/min; 3.30 mins/1kev, 197.80 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 163 (files: 1)
+	time: 37 s = 0.6 m = 0.01 h (264.3 events/min; 3.78 mins/1kev, 226.99 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 160 (files: 1)
+	time: 36 s = 0.6 m = 0.01 h (266.7 events/min; 3.75 mins/1kev, 225.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 166 (files: 1)
+	time: 36 s = 0.6 m = 0.01 h (276.7 events/min; 3.61 mins/1kev, 216.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 185 (files: 1)
+	time: 36 s = 0.6 m = 0.01 h (308.3 events/min; 3.24 mins/1kev, 194.59 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:03:10 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 258 (files: 1)
+	time: 44 s = 0.7 m = 0.01 h (351.8 events/min; 2.84 mins/1kev, 170.54 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 198 (files: 1)
+	time: 42 s = 0.7 m = 0.01 h (282.9 events/min; 3.54 mins/1kev, 212.12 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 251 (files: 1)
+	time: 42 s = 0.7 m = 0.01 h (358.6 events/min; 2.79 mins/1kev, 167.33 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 245 (files: 1)
+	time: 42 s = 0.7 m = 0.01 h (350.0 events/min; 2.86 mins/1kev, 171.43 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 233 (files: 1)
+	time: 43 s = 0.7 m = 0.01 h (325.1 events/min; 3.08 mins/1kev, 184.55 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 224 (files: 1)
+	time: 42 s = 0.7 m = 0.01 h (320.0 events/min; 3.12 mins/1kev, 187.50 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 232 (files: 1)
+	time: 42 s = 0.7 m = 0.01 h (331.4 events/min; 3.02 mins/1kev, 181.03 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 253 (files: 1)
+	time: 42 s = 0.7 m = 0.01 h (361.4 events/min; 2.77 mins/1kev, 166.01 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:03:16 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 319 (files: 1)
+	time: 49 s = 0.8 m = 0.01 h (390.6 events/min; 2.56 mins/1kev, 153.61 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 269 (files: 1)
+	time: 47 s = 0.8 m = 0.01 h (343.4 events/min; 2.91 mins/1kev, 174.72 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 315 (files: 1)
+	time: 47 s = 0.8 m = 0.01 h (402.1 events/min; 2.49 mins/1kev, 149.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 313 (files: 1)
+	time: 47 s = 0.8 m = 0.01 h (399.6 events/min; 2.50 mins/1kev, 150.16 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 301 (files: 1)
+	time: 48 s = 0.8 m = 0.01 h (376.2 events/min; 2.66 mins/1kev, 159.47 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 283 (files: 1)
+	time: 47 s = 0.8 m = 0.01 h (361.3 events/min; 2.77 mins/1kev, 166.08 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 296 (files: 1)
+	time: 47 s = 0.8 m = 0.01 h (377.9 events/min; 2.65 mins/1kev, 158.78 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 322 (files: 1)
+	time: 47 s = 0.8 m = 0.01 h (411.1 events/min; 2.43 mins/1kev, 145.96 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:03:21 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 387 (files: 1)
+	time: 54 s = 0.9 m = 0.01 h (430.0 events/min; 2.33 mins/1kev, 139.53 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 328 (files: 1)
+	time: 52 s = 0.9 m = 0.01 h (378.5 events/min; 2.64 mins/1kev, 158.54 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 376 (files: 1)
+	time: 52 s = 0.9 m = 0.01 h (433.8 events/min; 2.30 mins/1kev, 138.30 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 382 (files: 1)
+	time: 52 s = 0.9 m = 0.01 h (440.8 events/min; 2.27 mins/1kev, 136.13 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 369 (files: 1)
+	time: 53 s = 0.9 m = 0.01 h (417.7 events/min; 2.39 mins/1kev, 143.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 350 (files: 1)
+	time: 53 s = 0.9 m = 0.01 h (396.2 events/min; 2.52 mins/1kev, 151.43 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 360 (files: 1)
+	time: 53 s = 0.9 m = 0.01 h (407.5 events/min; 2.45 mins/1kev, 147.22 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 393 (files: 1)
+	time: 53 s = 0.9 m = 0.01 h (444.9 events/min; 2.25 mins/1kev, 134.86 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:03:27 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 447 (files: 1)
+	time: 60 s = 1.0 m = 0.02 h (447.0 events/min; 2.24 mins/1kev, 134.23 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 394 (files: 1)
+	time: 58 s = 1.0 m = 0.02 h (407.6 events/min; 2.45 mins/1kev, 147.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 432 (files: 1)
+	time: 58 s = 1.0 m = 0.02 h (446.9 events/min; 2.24 mins/1kev, 134.26 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 439 (files: 1)
+	time: 58 s = 1.0 m = 0.02 h (454.1 events/min; 2.20 mins/1kev, 132.12 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 426 (files: 1)
+	time: 59 s = 1.0 m = 0.02 h (433.2 events/min; 2.31 mins/1kev, 138.50 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 401 (files: 1)
+	time: 58 s = 1.0 m = 0.02 h (414.8 events/min; 2.41 mins/1kev, 144.64 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 425 (files: 1)
+	time: 58 s = 1.0 m = 0.02 h (439.7 events/min; 2.27 mins/1kev, 136.47 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 454 (files: 1)
+	time: 58 s = 1.0 m = 0.02 h (469.7 events/min; 2.13 mins/1kev, 127.75 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:03:32 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 521 (files: 1)
+	time: 65 s = 1.1 m = 0.02 h (480.9 events/min; 2.08 mins/1kev, 124.76 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 452 (files: 1)
+	time: 63 s = 1.1 m = 0.02 h (430.5 events/min; 2.32 mins/1kev, 139.38 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 491 (files: 1)
+	time: 64 s = 1.1 m = 0.02 h (460.3 events/min; 2.17 mins/1kev, 130.35 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 500 (files: 1)
+	time: 64 s = 1.1 m = 0.02 h (468.8 events/min; 2.13 mins/1kev, 128.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 485 (files: 1)
+	time: 65 s = 1.1 m = 0.02 h (447.7 events/min; 2.23 mins/1kev, 134.02 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 461 (files: 1)
+	time: 64 s = 1.1 m = 0.02 h (432.2 events/min; 2.31 mins/1kev, 138.83 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 488 (files: 1)
+	time: 64 s = 1.1 m = 0.02 h (457.5 events/min; 2.19 mins/1kev, 131.15 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 519 (files: 1)
+	time: 64 s = 1.1 m = 0.02 h (486.6 events/min; 2.06 mins/1kev, 123.31 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:03:38 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 589 (files: 1)
+	time: 71 s = 1.2 m = 0.02 h (497.7 events/min; 2.01 mins/1kev, 120.54 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 512 (files: 1)
+	time: 69 s = 1.1 m = 0.02 h (445.2 events/min; 2.25 mins/1kev, 134.77 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 551 (files: 1)
+	time: 69 s = 1.1 m = 0.02 h (479.1 events/min; 2.09 mins/1kev, 125.23 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 556 (files: 1)
+	time: 69 s = 1.1 m = 0.02 h (483.5 events/min; 2.07 mins/1kev, 124.10 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 542 (files: 1)
+	time: 70 s = 1.2 m = 0.02 h (464.6 events/min; 2.15 mins/1kev, 129.15 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 526 (files: 1)
+	time: 69 s = 1.1 m = 0.02 h (457.4 events/min; 2.19 mins/1kev, 131.18 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 551 (files: 1)
+	time: 69 s = 1.1 m = 0.02 h (479.1 events/min; 2.09 mins/1kev, 125.23 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 575 (files: 1)
+	time: 69 s = 1.1 m = 0.02 h (500.0 events/min; 2.00 mins/1kev, 120.00 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:03:43 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 655 (files: 1)
+	time: 76 s = 1.3 m = 0.02 h (517.1 events/min; 1.93 mins/1kev, 116.03 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 572 (files: 1)
+	time: 75 s = 1.2 m = 0.02 h (457.6 events/min; 2.19 mins/1kev, 131.12 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 609 (files: 1)
+	time: 75 s = 1.2 m = 0.02 h (487.2 events/min; 2.05 mins/1kev, 123.15 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 622 (files: 1)
+	time: 75 s = 1.2 m = 0.02 h (497.6 events/min; 2.01 mins/1kev, 120.58 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 603 (files: 1)
+	time: 76 s = 1.3 m = 0.02 h (476.1 events/min; 2.10 mins/1kev, 126.04 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 595 (files: 1)
+	time: 75 s = 1.2 m = 0.02 h (476.0 events/min; 2.10 mins/1kev, 126.05 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 613 (files: 1)
+	time: 75 s = 1.2 m = 0.02 h (490.4 events/min; 2.04 mins/1kev, 122.35 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 640 (files: 1)
+	time: 75 s = 1.2 m = 0.02 h (512.0 events/min; 1.95 mins/1kev, 117.19 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:03:49 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 721 (files: 1)
+	time: 82 s = 1.4 m = 0.02 h (527.6 events/min; 1.90 mins/1kev, 113.73 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 639 (files: 1)
+	time: 80 s = 1.3 m = 0.02 h (479.2 events/min; 2.09 mins/1kev, 125.20 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 676 (files: 1)
+	time: 80 s = 1.3 m = 0.02 h (507.0 events/min; 1.97 mins/1kev, 118.34 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 679 (files: 1)
+	time: 80 s = 1.3 m = 0.02 h (509.2 events/min; 1.96 mins/1kev, 117.82 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 663 (files: 1)
+	time: 81 s = 1.4 m = 0.02 h (491.1 events/min; 2.04 mins/1kev, 122.17 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 658 (files: 1)
+	time: 80 s = 1.3 m = 0.02 h (493.5 events/min; 2.03 mins/1kev, 121.58 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 677 (files: 1)
+	time: 80 s = 1.3 m = 0.02 h (507.8 events/min; 1.97 mins/1kev, 118.17 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 703 (files: 1)
+	time: 80 s = 1.3 m = 0.02 h (527.2 events/min; 1.90 mins/1kev, 113.80 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:03:54 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 789 (files: 1)
+	time: 88 s = 1.5 m = 0.02 h (538.0 events/min; 1.86 mins/1kev, 111.53 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 701 (files: 1)
+	time: 86 s = 1.4 m = 0.02 h (489.1 events/min; 2.04 mins/1kev, 122.68 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 748 (files: 1)
+	time: 86 s = 1.4 m = 0.02 h (521.9 events/min; 1.92 mins/1kev, 114.97 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 744 (files: 1)
+	time: 86 s = 1.4 m = 0.02 h (519.1 events/min; 1.93 mins/1kev, 115.59 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 731 (files: 1)
+	time: 87 s = 1.4 m = 0.02 h (504.1 events/min; 1.98 mins/1kev, 119.02 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 720 (files: 1)
+	time: 86 s = 1.4 m = 0.02 h (502.3 events/min; 1.99 mins/1kev, 119.44 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 746 (files: 1)
+	time: 86 s = 1.4 m = 0.02 h (520.5 events/min; 1.92 mins/1kev, 115.28 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 773 (files: 1)
+	time: 86 s = 1.4 m = 0.02 h (539.3 events/min; 1.85 mins/1kev, 111.25 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:04:00 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 859 (files: 1)
+	time: 93 s = 1.6 m = 0.03 h (554.2 events/min; 1.80 mins/1kev, 108.27 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 776 (files: 1)
+	time: 91 s = 1.5 m = 0.03 h (511.6 events/min; 1.95 mins/1kev, 117.27 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 810 (files: 1)
+	time: 91 s = 1.5 m = 0.03 h (534.1 events/min; 1.87 mins/1kev, 112.35 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 816 (files: 1)
+	time: 91 s = 1.5 m = 0.03 h (538.0 events/min; 1.86 mins/1kev, 111.52 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 801 (files: 1)
+	time: 92 s = 1.5 m = 0.03 h (522.4 events/min; 1.91 mins/1kev, 114.86 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 787 (files: 1)
+	time: 91 s = 1.5 m = 0.03 h (518.9 events/min; 1.93 mins/1kev, 115.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 817 (files: 1)
+	time: 91 s = 1.5 m = 0.03 h (538.7 events/min; 1.86 mins/1kev, 111.38 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 840 (files: 1)
+	time: 91 s = 1.5 m = 0.03 h (553.8 events/min; 1.81 mins/1kev, 108.33 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:04:06 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 933 (files: 1)
+	time: 99 s = 1.6 m = 0.03 h (565.5 events/min; 1.77 mins/1kev, 106.11 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 848 (files: 1)
+	time: 97 s = 1.6 m = 0.03 h (524.5 events/min; 1.91 mins/1kev, 114.39 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 890 (files: 1)
+	time: 97 s = 1.6 m = 0.03 h (550.5 events/min; 1.82 mins/1kev, 108.99 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 888 (files: 1)
+	time: 97 s = 1.6 m = 0.03 h (549.3 events/min; 1.82 mins/1kev, 109.23 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 876 (files: 1)
+	time: 98 s = 1.6 m = 0.03 h (536.3 events/min; 1.86 mins/1kev, 111.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 859 (files: 1)
+	time: 97 s = 1.6 m = 0.03 h (531.3 events/min; 1.88 mins/1kev, 112.92 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 887 (files: 1)
+	time: 97 s = 1.6 m = 0.03 h (548.7 events/min; 1.82 mins/1kev, 109.36 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 910 (files: 1)
+	time: 97 s = 1.6 m = 0.03 h (562.9 events/min; 1.78 mins/1kev, 106.59 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:04:11 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1001 (files: 1)
+	time: 104 s = 1.7 m = 0.03 h (577.5 events/min; 1.73 mins/1kev, 103.90 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 920 (files: 1)
+	time: 103 s = 1.7 m = 0.03 h (535.9 events/min; 1.87 mins/1kev, 111.96 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 952 (files: 1)
+	time: 103 s = 1.7 m = 0.03 h (554.6 events/min; 1.80 mins/1kev, 108.19 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 957 (files: 1)
+	time: 103 s = 1.7 m = 0.03 h (557.5 events/min; 1.79 mins/1kev, 107.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 938 (files: 1)
+	time: 104 s = 1.7 m = 0.03 h (541.2 events/min; 1.85 mins/1kev, 110.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 923 (files: 1)
+	time: 103 s = 1.7 m = 0.03 h (537.7 events/min; 1.86 mins/1kev, 111.59 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 959 (files: 1)
+	time: 103 s = 1.7 m = 0.03 h (558.6 events/min; 1.79 mins/1kev, 107.40 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 982 (files: 1)
+	time: 103 s = 1.7 m = 0.03 h (572.0 events/min; 1.75 mins/1kev, 104.89 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:04:17 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1067 (files: 1)
+	time: 110 s = 1.8 m = 0.03 h (582.0 events/min; 1.72 mins/1kev, 103.09 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 992 (files: 1)
+	time: 108 s = 1.8 m = 0.03 h (551.1 events/min; 1.81 mins/1kev, 108.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1019 (files: 1)
+	time: 108 s = 1.8 m = 0.03 h (566.1 events/min; 1.77 mins/1kev, 105.99 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1025 (files: 1)
+	time: 108 s = 1.8 m = 0.03 h (569.4 events/min; 1.76 mins/1kev, 105.37 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1006 (files: 1)
+	time: 109 s = 1.8 m = 0.03 h (553.8 events/min; 1.81 mins/1kev, 108.35 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 988 (files: 1)
+	time: 108 s = 1.8 m = 0.03 h (548.9 events/min; 1.82 mins/1kev, 109.31 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1024 (files: 1)
+	time: 108 s = 1.8 m = 0.03 h (568.9 events/min; 1.76 mins/1kev, 105.47 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1050 (files: 1)
+	time: 108 s = 1.8 m = 0.03 h (583.3 events/min; 1.71 mins/1kev, 102.86 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:04:23 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1135 (files: 1)
+	time: 116 s = 1.9 m = 0.03 h (587.1 events/min; 1.70 mins/1kev, 102.20 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1063 (files: 1)
+	time: 114 s = 1.9 m = 0.03 h (559.5 events/min; 1.79 mins/1kev, 107.24 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1079 (files: 1)
+	time: 114 s = 1.9 m = 0.03 h (567.9 events/min; 1.76 mins/1kev, 105.65 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1090 (files: 1)
+	time: 114 s = 1.9 m = 0.03 h (573.7 events/min; 1.74 mins/1kev, 104.59 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1068 (files: 1)
+	time: 115 s = 1.9 m = 0.03 h (557.2 events/min; 1.79 mins/1kev, 107.68 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1051 (files: 1)
+	time: 114 s = 1.9 m = 0.03 h (553.2 events/min; 1.81 mins/1kev, 108.47 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1089 (files: 1)
+	time: 114 s = 1.9 m = 0.03 h (573.2 events/min; 1.74 mins/1kev, 104.68 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1116 (files: 1)
+	time: 114 s = 1.9 m = 0.03 h (587.4 events/min; 1.70 mins/1kev, 102.15 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:04:28 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1204 (files: 1)
+	time: 122 s = 2.0 m = 0.03 h (592.1 events/min; 1.69 mins/1kev, 101.33 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1132 (files: 1)
+	time: 120 s = 2.0 m = 0.03 h (566.0 events/min; 1.77 mins/1kev, 106.01 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1149 (files: 1)
+	time: 120 s = 2.0 m = 0.03 h (574.5 events/min; 1.74 mins/1kev, 104.44 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1158 (files: 1)
+	time: 120 s = 2.0 m = 0.03 h (579.0 events/min; 1.73 mins/1kev, 103.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1141 (files: 1)
+	time: 121 s = 2.0 m = 0.03 h (565.8 events/min; 1.77 mins/1kev, 106.05 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1121 (files: 1)
+	time: 120 s = 2.0 m = 0.03 h (560.5 events/min; 1.78 mins/1kev, 107.05 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1156 (files: 1)
+	time: 120 s = 2.0 m = 0.03 h (578.0 events/min; 1.73 mins/1kev, 103.81 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1182 (files: 1)
+	time: 120 s = 2.0 m = 0.03 h (591.0 events/min; 1.69 mins/1kev, 101.52 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:04:34 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1276 (files: 1)
+	time: 127 s = 2.1 m = 0.04 h (602.8 events/min; 1.66 mins/1kev, 99.53 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1202 (files: 1)
+	time: 126 s = 2.1 m = 0.04 h (572.4 events/min; 1.75 mins/1kev, 104.83 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1213 (files: 1)
+	time: 126 s = 2.1 m = 0.04 h (577.6 events/min; 1.73 mins/1kev, 103.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1221 (files: 1)
+	time: 126 s = 2.1 m = 0.04 h (581.4 events/min; 1.72 mins/1kev, 103.19 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1207 (files: 1)
+	time: 127 s = 2.1 m = 0.04 h (570.2 events/min; 1.75 mins/1kev, 105.22 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1186 (files: 1)
+	time: 126 s = 2.1 m = 0.04 h (564.8 events/min; 1.77 mins/1kev, 106.24 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1226 (files: 1)
+	time: 126 s = 2.1 m = 0.04 h (583.8 events/min; 1.71 mins/1kev, 102.77 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1254 (files: 1)
+	time: 126 s = 2.1 m = 0.04 h (597.1 events/min; 1.67 mins/1kev, 100.48 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:04:40 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1350 (files: 1)
+	time: 133 s = 2.2 m = 0.04 h (609.0 events/min; 1.64 mins/1kev, 98.52 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1275 (files: 1)
+	time: 131 s = 2.2 m = 0.04 h (584.0 events/min; 1.71 mins/1kev, 102.75 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1277 (files: 1)
+	time: 131 s = 2.2 m = 0.04 h (584.9 events/min; 1.71 mins/1kev, 102.58 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1300 (files: 1)
+	time: 131 s = 2.2 m = 0.04 h (595.4 events/min; 1.68 mins/1kev, 100.77 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1276 (files: 1)
+	time: 132 s = 2.2 m = 0.04 h (580.0 events/min; 1.72 mins/1kev, 103.45 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1261 (files: 1)
+	time: 131 s = 2.2 m = 0.04 h (577.6 events/min; 1.73 mins/1kev, 103.89 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1280 (files: 1)
+	time: 131 s = 2.2 m = 0.04 h (586.3 events/min; 1.71 mins/1kev, 102.34 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1326 (files: 1)
+	time: 131 s = 2.2 m = 0.04 h (607.3 events/min; 1.65 mins/1kev, 98.79 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:04:46 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1423 (files: 1)
+	time: 139 s = 2.3 m = 0.04 h (614.2 events/min; 1.63 mins/1kev, 97.68 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1350 (files: 1)
+	time: 137 s = 2.3 m = 0.04 h (591.2 events/min; 1.69 mins/1kev, 101.48 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1351 (files: 1)
+	time: 137 s = 2.3 m = 0.04 h (591.7 events/min; 1.69 mins/1kev, 101.41 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1368 (files: 1)
+	time: 137 s = 2.3 m = 0.04 h (599.1 events/min; 1.67 mins/1kev, 100.15 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1344 (files: 1)
+	time: 138 s = 2.3 m = 0.04 h (584.3 events/min; 1.71 mins/1kev, 102.68 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1337 (files: 1)
+	time: 137 s = 2.3 m = 0.04 h (585.5 events/min; 1.71 mins/1kev, 102.47 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1349 (files: 1)
+	time: 137 s = 2.3 m = 0.04 h (590.8 events/min; 1.69 mins/1kev, 101.56 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1396 (files: 1)
+	time: 137 s = 2.3 m = 0.04 h (611.4 events/min; 1.64 mins/1kev, 98.14 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:04:51 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1496 (files: 1)
+	time: 145 s = 2.4 m = 0.04 h (619.0 events/min; 1.62 mins/1kev, 96.93 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1400 (files: 1)
+	time: 140 s = 2.3 m = 0.04 h (600.0 events/min; 1.67 mins/1kev, 100.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1426 (files: 1)
+	time: 143 s = 2.4 m = 0.04 h (598.3 events/min; 1.67 mins/1kev, 100.28 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1444 (files: 1)
+	time: 143 s = 2.4 m = 0.04 h (605.9 events/min; 1.65 mins/1kev, 99.03 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1411 (files: 1)
+	time: 144 s = 2.4 m = 0.04 h (587.9 events/min; 1.70 mins/1kev, 102.06 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1407 (files: 1)
+	time: 143 s = 2.4 m = 0.04 h (590.3 events/min; 1.69 mins/1kev, 101.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1411 (files: 1)
+	time: 143 s = 2.4 m = 0.04 h (592.0 events/min; 1.69 mins/1kev, 101.35 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1471 (files: 1)
+	time: 143 s = 2.4 m = 0.04 h (617.2 events/min; 1.62 mins/1kev, 97.21 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:04:57 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1579 (files: 1)
+	time: 151 s = 2.5 m = 0.04 h (627.4 events/min; 1.59 mins/1kev, 95.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1456 (files: 1)
+	time: 149 s = 2.5 m = 0.04 h (586.3 events/min; 1.71 mins/1kev, 102.34 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1500 (files: 1)
+	time: 149 s = 2.5 m = 0.04 h (604.0 events/min; 1.66 mins/1kev, 99.33 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1519 (files: 1)
+	time: 149 s = 2.5 m = 0.04 h (611.7 events/min; 1.63 mins/1kev, 98.09 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1482 (files: 1)
+	time: 150 s = 2.5 m = 0.04 h (592.8 events/min; 1.69 mins/1kev, 101.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1486 (files: 1)
+	time: 149 s = 2.5 m = 0.04 h (598.4 events/min; 1.67 mins/1kev, 100.27 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1493 (files: 1)
+	time: 149 s = 2.5 m = 0.04 h (601.2 events/min; 1.66 mins/1kev, 99.80 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1535 (files: 1)
+	time: 149 s = 2.5 m = 0.04 h (618.1 events/min; 1.62 mins/1kev, 97.07 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:05:03 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1655 (files: 1)
+	time: 157 s = 2.6 m = 0.04 h (632.5 events/min; 1.58 mins/1kev, 94.86 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1525 (files: 1)
+	time: 154 s = 2.6 m = 0.04 h (594.2 events/min; 1.68 mins/1kev, 100.98 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1573 (files: 1)
+	time: 155 s = 2.6 m = 0.04 h (608.9 events/min; 1.64 mins/1kev, 98.54 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1588 (files: 1)
+	time: 155 s = 2.6 m = 0.04 h (614.7 events/min; 1.63 mins/1kev, 97.61 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1552 (files: 1)
+	time: 156 s = 2.6 m = 0.04 h (596.9 events/min; 1.68 mins/1kev, 100.52 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1555 (files: 1)
+	time: 155 s = 2.6 m = 0.04 h (601.9 events/min; 1.66 mins/1kev, 99.68 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1563 (files: 1)
+	time: 155 s = 2.6 m = 0.04 h (605.0 events/min; 1.65 mins/1kev, 99.17 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1613 (files: 1)
+	time: 155 s = 2.6 m = 0.04 h (624.4 events/min; 1.60 mins/1kev, 96.09 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:05:09 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1726 (files: 1)
+	time: 162 s = 2.7 m = 0.04 h (639.3 events/min; 1.56 mins/1kev, 93.86 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1585 (files: 1)
+	time: 160 s = 2.7 m = 0.04 h (594.4 events/min; 1.68 mins/1kev, 100.95 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1643 (files: 1)
+	time: 161 s = 2.7 m = 0.04 h (612.3 events/min; 1.63 mins/1kev, 97.99 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1665 (files: 1)
+	time: 160 s = 2.7 m = 0.04 h (624.4 events/min; 1.60 mins/1kev, 96.10 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1627 (files: 1)
+	time: 162 s = 2.7 m = 0.04 h (602.6 events/min; 1.66 mins/1kev, 99.57 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1626 (files: 1)
+	time: 161 s = 2.7 m = 0.04 h (606.0 events/min; 1.65 mins/1kev, 99.02 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1638 (files: 1)
+	time: 161 s = 2.7 m = 0.04 h (610.4 events/min; 1.64 mins/1kev, 98.29 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1690 (files: 1)
+	time: 161 s = 2.7 m = 0.04 h (629.8 events/min; 1.59 mins/1kev, 95.27 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:05:15 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1796 (files: 1)
+	time: 168 s = 2.8 m = 0.05 h (641.4 events/min; 1.56 mins/1kev, 93.54 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1658 (files: 1)
+	time: 166 s = 2.8 m = 0.05 h (599.3 events/min; 1.67 mins/1kev, 100.12 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1720 (files: 1)
+	time: 166 s = 2.8 m = 0.05 h (621.7 events/min; 1.61 mins/1kev, 96.51 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1741 (files: 1)
+	time: 166 s = 2.8 m = 0.05 h (629.3 events/min; 1.59 mins/1kev, 95.35 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1701 (files: 1)
+	time: 168 s = 2.8 m = 0.05 h (607.5 events/min; 1.65 mins/1kev, 98.77 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1692 (files: 1)
+	time: 167 s = 2.8 m = 0.05 h (607.9 events/min; 1.64 mins/1kev, 98.70 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1704 (files: 1)
+	time: 167 s = 2.8 m = 0.05 h (612.2 events/min; 1.63 mins/1kev, 98.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1761 (files: 1)
+	time: 167 s = 2.8 m = 0.05 h (632.7 events/min; 1.58 mins/1kev, 94.83 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:05:21 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1863 (files: 1)
+	time: 174 s = 2.9 m = 0.05 h (642.4 events/min; 1.56 mins/1kev, 93.40 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1726 (files: 1)
+	time: 172 s = 2.9 m = 0.05 h (602.1 events/min; 1.66 mins/1kev, 99.65 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1786 (files: 1)
+	time: 172 s = 2.9 m = 0.05 h (623.0 events/min; 1.61 mins/1kev, 96.30 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1812 (files: 1)
+	time: 172 s = 2.9 m = 0.05 h (632.1 events/min; 1.58 mins/1kev, 94.92 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1762 (files: 1)
+	time: 173 s = 2.9 m = 0.05 h (611.1 events/min; 1.64 mins/1kev, 98.18 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1760 (files: 1)
+	time: 172 s = 2.9 m = 0.05 h (614.0 events/min; 1.63 mins/1kev, 97.73 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1775 (files: 1)
+	time: 172 s = 2.9 m = 0.05 h (619.2 events/min; 1.62 mins/1kev, 96.90 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1815 (files: 1)
+	time: 173 s = 2.9 m = 0.05 h (629.5 events/min; 1.59 mins/1kev, 95.32 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:05:27 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 1933 (files: 1)
+	time: 180 s = 3.0 m = 0.05 h (644.3 events/min; 1.55 mins/1kev, 93.12 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1798 (files: 1)
+	time: 178 s = 3.0 m = 0.05 h (606.1 events/min; 1.65 mins/1kev, 99.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1869 (files: 1)
+	time: 178 s = 3.0 m = 0.05 h (630.0 events/min; 1.59 mins/1kev, 95.24 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1890 (files: 1)
+	time: 178 s = 3.0 m = 0.05 h (637.1 events/min; 1.57 mins/1kev, 94.18 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1833 (files: 1)
+	time: 179 s = 3.0 m = 0.05 h (614.4 events/min; 1.63 mins/1kev, 97.65 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1835 (files: 1)
+	time: 179 s = 3.0 m = 0.05 h (615.1 events/min; 1.63 mins/1kev, 97.55 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1851 (files: 1)
+	time: 179 s = 3.0 m = 0.05 h (620.4 events/min; 1.61 mins/1kev, 96.70 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1897 (files: 1)
+	time: 179 s = 3.0 m = 0.05 h (635.9 events/min; 1.57 mins/1kev, 94.36 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:05:33 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 2005 (files: 1)
+	time: 186 s = 3.1 m = 0.05 h (646.8 events/min; 1.55 mins/1kev, 92.77 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1876 (files: 1)
+	time: 184 s = 3.1 m = 0.05 h (611.7 events/min; 1.63 mins/1kev, 98.08 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 1948 (files: 1)
+	time: 185 s = 3.1 m = 0.05 h (631.8 events/min; 1.58 mins/1kev, 94.97 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 1968 (files: 1)
+	time: 185 s = 3.1 m = 0.05 h (638.3 events/min; 1.57 mins/1kev, 94.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1909 (files: 1)
+	time: 186 s = 3.1 m = 0.05 h (615.8 events/min; 1.62 mins/1kev, 97.43 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1914 (files: 1)
+	time: 185 s = 3.1 m = 0.05 h (620.8 events/min; 1.61 mins/1kev, 96.66 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 1926 (files: 1)
+	time: 184 s = 3.1 m = 0.05 h (628.0 events/min; 1.59 mins/1kev, 95.53 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 1972 (files: 1)
+	time: 185 s = 3.1 m = 0.05 h (639.6 events/min; 1.56 mins/1kev, 93.81 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:05:39 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 2081 (files: 1)
+	time: 192 s = 3.2 m = 0.05 h (650.3 events/min; 1.54 mins/1kev, 92.26 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 1951 (files: 1)
+	time: 190 s = 3.2 m = 0.05 h (616.1 events/min; 1.62 mins/1kev, 97.39 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 2017 (files: 1)
+	time: 190 s = 3.2 m = 0.05 h (636.9 events/min; 1.57 mins/1kev, 94.20 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 2036 (files: 1)
+	time: 190 s = 3.2 m = 0.05 h (642.9 events/min; 1.56 mins/1kev, 93.32 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 1985 (files: 1)
+	time: 192 s = 3.2 m = 0.05 h (620.3 events/min; 1.61 mins/1kev, 96.73 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 1990 (files: 1)
+	time: 191 s = 3.2 m = 0.05 h (625.1 events/min; 1.60 mins/1kev, 95.98 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 2001 (files: 1)
+	time: 191 s = 3.2 m = 0.05 h (628.6 events/min; 1.59 mins/1kev, 95.45 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 2026 (files: 1)
+	time: 190 s = 3.2 m = 0.05 h (639.8 events/min; 1.56 mins/1kev, 93.78 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:05:45 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 2139 (files: 1)
+	time: 198 s = 3.3 m = 0.06 h (648.2 events/min; 1.54 mins/1kev, 92.57 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 2026 (files: 1)
+	time: 196 s = 3.3 m = 0.05 h (620.2 events/min; 1.61 mins/1kev, 96.74 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 2089 (files: 1)
+	time: 196 s = 3.3 m = 0.05 h (639.5 events/min; 1.56 mins/1kev, 93.82 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 2107 (files: 1)
+	time: 196 s = 3.3 m = 0.05 h (645.0 events/min; 1.55 mins/1kev, 93.02 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 2060 (files: 1)
+	time: 197 s = 3.3 m = 0.05 h (627.4 events/min; 1.59 mins/1kev, 95.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 2062 (files: 1)
+	time: 197 s = 3.3 m = 0.05 h (628.0 events/min; 1.59 mins/1kev, 95.54 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 2076 (files: 1)
+	time: 197 s = 3.3 m = 0.05 h (632.3 events/min; 1.58 mins/1kev, 94.89 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 2104 (files: 1)
+	time: 197 s = 3.3 m = 0.05 h (640.8 events/min; 1.56 mins/1kev, 93.63 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:05:51 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 2215 (files: 1)
+	time: 204 s = 3.4 m = 0.06 h (651.5 events/min; 1.53 mins/1kev, 92.10 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 2103 (files: 1)
+	time: 202 s = 3.4 m = 0.06 h (624.7 events/min; 1.60 mins/1kev, 96.05 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 2164 (files: 1)
+	time: 202 s = 3.4 m = 0.06 h (642.8 events/min; 1.56 mins/1kev, 93.35 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 2169 (files: 1)
+	time: 202 s = 3.4 m = 0.06 h (644.3 events/min; 1.55 mins/1kev, 93.13 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 2133 (files: 1)
+	time: 203 s = 3.4 m = 0.06 h (630.4 events/min; 1.59 mins/1kev, 95.17 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 2132 (files: 1)
+	time: 203 s = 3.4 m = 0.06 h (630.1 events/min; 1.59 mins/1kev, 95.22 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 2150 (files: 1)
+	time: 202 s = 3.4 m = 0.06 h (638.6 events/min; 1.57 mins/1kev, 93.95 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 2159 (files: 1)
+	time: 203 s = 3.4 m = 0.06 h (638.1 events/min; 1.57 mins/1kev, 94.03 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:05:57 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 2289 (files: 1)
+	time: 210 s = 3.5 m = 0.06 h (654.0 events/min; 1.53 mins/1kev, 91.74 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 2179 (files: 1)
+	time: 208 s = 3.5 m = 0.06 h (628.6 events/min; 1.59 mins/1kev, 95.46 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 2246 (files: 1)
+	time: 208 s = 3.5 m = 0.06 h (647.9 events/min; 1.54 mins/1kev, 92.61 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 2237 (files: 1)
+	time: 208 s = 3.5 m = 0.06 h (645.3 events/min; 1.55 mins/1kev, 92.98 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 2206 (files: 1)
+	time: 209 s = 3.5 m = 0.06 h (633.3 events/min; 1.58 mins/1kev, 94.74 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 2208 (files: 1)
+	time: 209 s = 3.5 m = 0.06 h (633.9 events/min; 1.58 mins/1kev, 94.66 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 2226 (files: 1)
+	time: 209 s = 3.5 m = 0.06 h (639.0 events/min; 1.56 mins/1kev, 93.89 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 2242 (files: 1)
+	time: 209 s = 3.5 m = 0.06 h (643.6 events/min; 1.55 mins/1kev, 93.22 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:06:03 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 2325 (files: 2)
+	time: 216 s = 3.6 m = 0.06 h (645.8 events/min; 1.55 mins/1kev, 92.90 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 2264 (files: 1)
+	time: 214 s = 3.6 m = 0.06 h (634.8 events/min; 1.58 mins/1kev, 94.52 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 2299 (files: 2)
+	time: 212 s = 3.5 m = 0.06 h (650.7 events/min; 1.54 mins/1kev, 92.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 2299 (files: 1)
+	time: 213 s = 3.5 m = 0.06 h (647.6 events/min; 1.54 mins/1kev, 92.65 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 2245 (files: 2)
+	time: 216 s = 3.6 m = 0.06 h (623.6 events/min; 1.60 mins/1kev, 96.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 2292 (files: 1)
+	time: 215 s = 3.6 m = 0.06 h (639.6 events/min; 1.56 mins/1kev, 93.80 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 2299 (files: 1)
+	time: 214 s = 3.6 m = 0.06 h (644.6 events/min; 1.55 mins/1kev, 93.08 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 2299 (files: 1)
+	time: 213 s = 3.5 m = 0.06 h (647.6 events/min; 1.54 mins/1kev, 92.65 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:06:09 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 2400 (files: 2)
+	time: 222 s = 3.7 m = 0.06 h (648.6 events/min; 1.54 mins/1kev, 92.50 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 2299 (files: 2)
+	time: 217 s = 3.6 m = 0.06 h (635.7 events/min; 1.57 mins/1kev, 94.39 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 2359 (files: 2)
+	time: 220 s = 3.7 m = 0.06 h (643.4 events/min; 1.55 mins/1kev, 93.26 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 2336 (files: 2)
+	time: 220 s = 3.7 m = 0.06 h (637.1 events/min; 1.57 mins/1kev, 94.18 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 2318 (files: 2)
+	time: 222 s = 3.7 m = 0.06 h (626.5 events/min; 1.60 mins/1kev, 95.77 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 2324 (files: 2)
+	time: 221 s = 3.7 m = 0.06 h (631.0 events/min; 1.58 mins/1kev, 95.09 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 2339 (files: 2)
+	time: 221 s = 3.7 m = 0.06 h (635.0 events/min; 1.57 mins/1kev, 94.48 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 2347 (files: 2)
+	time: 221 s = 3.7 m = 0.06 h (637.2 events/min; 1.57 mins/1kev, 94.16 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:06:15 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 2472 (files: 2)
+	time: 228 s = 3.8 m = 0.06 h (650.5 events/min; 1.54 mins/1kev, 92.23 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 2372 (files: 2)
+	time: 226 s = 3.8 m = 0.06 h (629.7 events/min; 1.59 mins/1kev, 95.28 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 2437 (files: 2)
+	time: 226 s = 3.8 m = 0.06 h (647.0 events/min; 1.55 mins/1kev, 92.74 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 2398 (files: 2)
+	time: 227 s = 3.8 m = 0.06 h (633.8 events/min; 1.58 mins/1kev, 94.66 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 2389 (files: 2)
+	time: 228 s = 3.8 m = 0.06 h (628.7 events/min; 1.59 mins/1kev, 95.44 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 2396 (files: 2)
+	time: 227 s = 3.8 m = 0.06 h (633.3 events/min; 1.58 mins/1kev, 94.74 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 2419 (files: 2)
+	time: 227 s = 3.8 m = 0.06 h (639.4 events/min; 1.56 mins/1kev, 93.84 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 2427 (files: 2)
+	time: 227 s = 3.8 m = 0.06 h (641.5 events/min; 1.56 mins/1kev, 93.53 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:06:21 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 2547 (files: 2)
+	time: 234 s = 3.9 m = 0.07 h (653.1 events/min; 1.53 mins/1kev, 91.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 2446 (files: 2)
+	time: 232 s = 3.9 m = 0.06 h (632.6 events/min; 1.58 mins/1kev, 94.85 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 2503 (files: 2)
+	time: 233 s = 3.9 m = 0.06 h (644.5 events/min; 1.55 mins/1kev, 93.09 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 2467 (files: 2)
+	time: 233 s = 3.9 m = 0.06 h (635.3 events/min; 1.57 mins/1kev, 94.45 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 2465 (files: 2)
+	time: 234 s = 3.9 m = 0.07 h (632.1 events/min; 1.58 mins/1kev, 94.93 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 2467 (files: 2)
+	time: 233 s = 3.9 m = 0.06 h (635.3 events/min; 1.57 mins/1kev, 94.45 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 2481 (files: 2)
+	time: 233 s = 3.9 m = 0.06 h (638.9 events/min; 1.57 mins/1kev, 93.91 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 2496 (files: 2)
+	time: 233 s = 3.9 m = 0.06 h (642.7 events/min; 1.56 mins/1kev, 93.35 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:06:27 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 2611 (files: 2)
+	time: 240 s = 4.0 m = 0.07 h (652.8 events/min; 1.53 mins/1kev, 91.92 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 2515 (files: 2)
+	time: 239 s = 4.0 m = 0.07 h (631.4 events/min; 1.58 mins/1kev, 95.03 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 2575 (files: 2)
+	time: 239 s = 4.0 m = 0.07 h (646.4 events/min; 1.55 mins/1kev, 92.82 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 2542 (files: 2)
+	time: 239 s = 4.0 m = 0.07 h (638.2 events/min; 1.57 mins/1kev, 94.02 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 2537 (files: 2)
+	time: 240 s = 4.0 m = 0.07 h (634.2 events/min; 1.58 mins/1kev, 94.60 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 2550 (files: 2)
+	time: 239 s = 4.0 m = 0.07 h (640.2 events/min; 1.56 mins/1kev, 93.73 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 2562 (files: 2)
+	time: 239 s = 4.0 m = 0.07 h (643.2 events/min; 1.55 mins/1kev, 93.29 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 2575 (files: 2)
+	time: 239 s = 4.0 m = 0.07 h (646.4 events/min; 1.55 mins/1kev, 92.82 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:06:34 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 2682 (files: 2)
+	time: 247 s = 4.1 m = 0.07 h (651.5 events/min; 1.53 mins/1kev, 92.10 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 2586 (files: 2)
+	time: 245 s = 4.1 m = 0.07 h (633.3 events/min; 1.58 mins/1kev, 94.74 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 2650 (files: 2)
+	time: 245 s = 4.1 m = 0.07 h (649.0 events/min; 1.54 mins/1kev, 92.45 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 2614 (files: 2)
+	time: 245 s = 4.1 m = 0.07 h (640.2 events/min; 1.56 mins/1kev, 93.73 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 2620 (files: 2)
+	time: 246 s = 4.1 m = 0.07 h (639.0 events/min; 1.56 mins/1kev, 93.89 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 2630 (files: 2)
+	time: 245 s = 4.1 m = 0.07 h (644.1 events/min; 1.55 mins/1kev, 93.16 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 2638 (files: 2)
+	time: 245 s = 4.1 m = 0.07 h (646.0 events/min; 1.55 mins/1kev, 92.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 2649 (files: 2)
+	time: 246 s = 4.1 m = 0.07 h (646.1 events/min; 1.55 mins/1kev, 92.87 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:06:40 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 2756 (files: 2)
+	time: 253 s = 4.2 m = 0.07 h (653.6 events/min; 1.53 mins/1kev, 91.80 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 2660 (files: 2)
+	time: 251 s = 4.2 m = 0.07 h (635.9 events/min; 1.57 mins/1kev, 94.36 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 2723 (files: 2)
+	time: 251 s = 4.2 m = 0.07 h (650.9 events/min; 1.54 mins/1kev, 92.18 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 2695 (files: 2)
+	time: 251 s = 4.2 m = 0.07 h (644.2 events/min; 1.55 mins/1kev, 93.14 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 2692 (files: 2)
+	time: 253 s = 4.2 m = 0.07 h (638.4 events/min; 1.57 mins/1kev, 93.98 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 2706 (files: 2)
+	time: 252 s = 4.2 m = 0.07 h (644.3 events/min; 1.55 mins/1kev, 93.13 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 2712 (files: 2)
+	time: 252 s = 4.2 m = 0.07 h (645.7 events/min; 1.55 mins/1kev, 92.92 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 2725 (files: 2)
+	time: 252 s = 4.2 m = 0.07 h (648.8 events/min; 1.54 mins/1kev, 92.48 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:06:46 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 2828 (files: 2)
+	time: 259 s = 4.3 m = 0.07 h (655.1 events/min; 1.53 mins/1kev, 91.58 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 2731 (files: 2)
+	time: 257 s = 4.3 m = 0.07 h (637.6 events/min; 1.57 mins/1kev, 94.10 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 2799 (files: 2)
+	time: 258 s = 4.3 m = 0.07 h (650.9 events/min; 1.54 mins/1kev, 92.18 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 2766 (files: 2)
+	time: 258 s = 4.3 m = 0.07 h (643.3 events/min; 1.55 mins/1kev, 93.28 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 2774 (files: 2)
+	time: 259 s = 4.3 m = 0.07 h (642.6 events/min; 1.56 mins/1kev, 93.37 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 2785 (files: 2)
+	time: 258 s = 4.3 m = 0.07 h (647.7 events/min; 1.54 mins/1kev, 92.64 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 2788 (files: 2)
+	time: 258 s = 4.3 m = 0.07 h (648.4 events/min; 1.54 mins/1kev, 92.54 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 2800 (files: 2)
+	time: 258 s = 4.3 m = 0.07 h (651.2 events/min; 1.54 mins/1kev, 92.14 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:06:53 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 2900 (files: 2)
+	time: 265 s = 4.4 m = 0.07 h (656.6 events/min; 1.52 mins/1kev, 91.38 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 2803 (files: 2)
+	time: 264 s = 4.4 m = 0.07 h (637.0 events/min; 1.57 mins/1kev, 94.18 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 2866 (files: 2)
+	time: 264 s = 4.4 m = 0.07 h (651.4 events/min; 1.54 mins/1kev, 92.11 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 2832 (files: 2)
+	time: 264 s = 4.4 m = 0.07 h (643.6 events/min; 1.55 mins/1kev, 93.22 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 2848 (files: 2)
+	time: 265 s = 4.4 m = 0.07 h (644.8 events/min; 1.55 mins/1kev, 93.05 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 2857 (files: 2)
+	time: 264 s = 4.4 m = 0.07 h (649.3 events/min; 1.54 mins/1kev, 92.40 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 2850 (files: 2)
+	time: 264 s = 4.4 m = 0.07 h (647.7 events/min; 1.54 mins/1kev, 92.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 2860 (files: 2)
+	time: 265 s = 4.4 m = 0.07 h (647.5 events/min; 1.54 mins/1kev, 92.66 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:06:59 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 2969 (files: 2)
+	time: 272 s = 4.5 m = 0.08 h (654.9 events/min; 1.53 mins/1kev, 91.61 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 2875 (files: 2)
+	time: 270 s = 4.5 m = 0.07 h (638.9 events/min; 1.57 mins/1kev, 93.91 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 2937 (files: 2)
+	time: 271 s = 4.5 m = 0.08 h (650.3 events/min; 1.54 mins/1kev, 92.27 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 2902 (files: 2)
+	time: 271 s = 4.5 m = 0.08 h (642.5 events/min; 1.56 mins/1kev, 93.38 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 2912 (files: 2)
+	time: 272 s = 4.5 m = 0.08 h (642.4 events/min; 1.56 mins/1kev, 93.41 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 2931 (files: 2)
+	time: 271 s = 4.5 m = 0.08 h (648.9 events/min; 1.54 mins/1kev, 92.46 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 2925 (files: 2)
+	time: 271 s = 4.5 m = 0.08 h (647.6 events/min; 1.54 mins/1kev, 92.65 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 2929 (files: 2)
+	time: 271 s = 4.5 m = 0.08 h (648.5 events/min; 1.54 mins/1kev, 92.52 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:07:05 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 3045 (files: 2)
+	time: 279 s = 4.7 m = 0.08 h (654.8 events/min; 1.53 mins/1kev, 91.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 2950 (files: 2)
+	time: 277 s = 4.6 m = 0.08 h (639.0 events/min; 1.56 mins/1kev, 93.90 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 3004 (files: 2)
+	time: 277 s = 4.6 m = 0.08 h (650.7 events/min; 1.54 mins/1kev, 92.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 2969 (files: 2)
+	time: 277 s = 4.6 m = 0.08 h (643.1 events/min; 1.55 mins/1kev, 93.30 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 2987 (files: 2)
+	time: 278 s = 4.6 m = 0.08 h (644.7 events/min; 1.55 mins/1kev, 93.07 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 3006 (files: 2)
+	time: 277 s = 4.6 m = 0.08 h (651.1 events/min; 1.54 mins/1kev, 92.15 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 2992 (files: 2)
+	time: 278 s = 4.6 m = 0.08 h (645.8 events/min; 1.55 mins/1kev, 92.91 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 3001 (files: 2)
+	time: 278 s = 4.6 m = 0.08 h (647.7 events/min; 1.54 mins/1kev, 92.64 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:07:12 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 3115 (files: 2)
+	time: 285 s = 4.8 m = 0.08 h (655.8 events/min; 1.52 mins/1kev, 91.49 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 3028 (files: 2)
+	time: 283 s = 4.7 m = 0.08 h (642.0 events/min; 1.56 mins/1kev, 93.46 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 3075 (files: 2)
+	time: 283 s = 4.7 m = 0.08 h (651.9 events/min; 1.53 mins/1kev, 92.03 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 3045 (files: 2)
+	time: 283 s = 4.7 m = 0.08 h (645.6 events/min; 1.55 mins/1kev, 92.94 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 3065 (files: 2)
+	time: 284 s = 4.7 m = 0.08 h (647.5 events/min; 1.54 mins/1kev, 92.66 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 3081 (files: 2)
+	time: 284 s = 4.7 m = 0.08 h (650.9 events/min; 1.54 mins/1kev, 92.18 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 3063 (files: 2)
+	time: 284 s = 4.7 m = 0.08 h (647.1 events/min; 1.55 mins/1kev, 92.72 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 3081 (files: 2)
+	time: 284 s = 4.7 m = 0.08 h (650.9 events/min; 1.54 mins/1kev, 92.18 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:07:18 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 3193 (files: 2)
+	time: 291 s = 4.8 m = 0.08 h (658.4 events/min; 1.52 mins/1kev, 91.14 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 3074 (files: 2)
+	time: 286 s = 4.8 m = 0.08 h (644.9 events/min; 1.55 mins/1kev, 93.04 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 3155 (files: 2)
+	time: 290 s = 4.8 m = 0.08 h (652.8 events/min; 1.53 mins/1kev, 91.92 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 3118 (files: 2)
+	time: 290 s = 4.8 m = 0.08 h (645.1 events/min; 1.55 mins/1kev, 93.01 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 3143 (files: 2)
+	time: 291 s = 4.8 m = 0.08 h (648.0 events/min; 1.54 mins/1kev, 92.59 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 3164 (files: 2)
+	time: 290 s = 4.8 m = 0.08 h (654.6 events/min; 1.53 mins/1kev, 91.66 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 3139 (files: 2)
+	time: 290 s = 4.8 m = 0.08 h (649.4 events/min; 1.54 mins/1kev, 92.39 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 3158 (files: 2)
+	time: 290 s = 4.8 m = 0.08 h (653.4 events/min; 1.53 mins/1kev, 91.83 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:07:25 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 3264 (files: 2)
+	time: 298 s = 5.0 m = 0.08 h (657.2 events/min; 1.52 mins/1kev, 91.30 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 3125 (files: 2)
+	time: 296 s = 4.9 m = 0.08 h (633.4 events/min; 1.58 mins/1kev, 94.72 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 3217 (files: 2)
+	time: 296 s = 4.9 m = 0.08 h (652.1 events/min; 1.53 mins/1kev, 92.01 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 3188 (files: 2)
+	time: 296 s = 4.9 m = 0.08 h (646.2 events/min; 1.55 mins/1kev, 92.85 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 3218 (files: 2)
+	time: 297 s = 5.0 m = 0.08 h (650.1 events/min; 1.54 mins/1kev, 92.29 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 3225 (files: 2)
+	time: 297 s = 5.0 m = 0.08 h (651.5 events/min; 1.53 mins/1kev, 92.09 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 3199 (files: 2)
+	time: 297 s = 5.0 m = 0.08 h (646.3 events/min; 1.55 mins/1kev, 92.84 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 3227 (files: 2)
+	time: 297 s = 5.0 m = 0.08 h (651.9 events/min; 1.53 mins/1kev, 92.04 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:07:31 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 3330 (files: 2)
+	time: 304 s = 5.1 m = 0.08 h (657.2 events/min; 1.52 mins/1kev, 91.29 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 3197 (files: 2)
+	time: 302 s = 5.0 m = 0.08 h (635.2 events/min; 1.57 mins/1kev, 94.46 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 3292 (files: 2)
+	time: 303 s = 5.0 m = 0.08 h (651.9 events/min; 1.53 mins/1kev, 92.04 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 3252 (files: 2)
+	time: 303 s = 5.0 m = 0.08 h (644.0 events/min; 1.55 mins/1kev, 93.17 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 3296 (files: 2)
+	time: 304 s = 5.1 m = 0.08 h (650.5 events/min; 1.54 mins/1kev, 92.23 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 3298 (files: 2)
+	time: 303 s = 5.0 m = 0.08 h (653.1 events/min; 1.53 mins/1kev, 91.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 3263 (files: 2)
+	time: 303 s = 5.0 m = 0.08 h (646.1 events/min; 1.55 mins/1kev, 92.86 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 3297 (files: 2)
+	time: 303 s = 5.0 m = 0.08 h (652.9 events/min; 1.53 mins/1kev, 91.90 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:07:37 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 3417 (files: 2)
+	time: 311 s = 5.2 m = 0.09 h (659.2 events/min; 1.52 mins/1kev, 91.02 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 3275 (files: 2)
+	time: 309 s = 5.2 m = 0.09 h (635.9 events/min; 1.57 mins/1kev, 94.35 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 3375 (files: 2)
+	time: 309 s = 5.2 m = 0.09 h (655.3 events/min; 1.53 mins/1kev, 91.56 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 3334 (files: 2)
+	time: 309 s = 5.2 m = 0.09 h (647.4 events/min; 1.54 mins/1kev, 92.68 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 3375 (files: 2)
+	time: 310 s = 5.2 m = 0.09 h (653.2 events/min; 1.53 mins/1kev, 91.85 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 3381 (files: 2)
+	time: 309 s = 5.2 m = 0.09 h (656.5 events/min; 1.52 mins/1kev, 91.39 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 3336 (files: 2)
+	time: 309 s = 5.2 m = 0.09 h (647.8 events/min; 1.54 mins/1kev, 92.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 3375 (files: 2)
+	time: 310 s = 5.2 m = 0.09 h (653.2 events/min; 1.53 mins/1kev, 91.85 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:07:44 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 3496 (files: 2)
+	time: 317 s = 5.3 m = 0.09 h (661.7 events/min; 1.51 mins/1kev, 90.68 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 3350 (files: 2)
+	time: 315 s = 5.2 m = 0.09 h (638.1 events/min; 1.57 mins/1kev, 94.03 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 3449 (files: 2)
+	time: 315 s = 5.2 m = 0.09 h (657.0 events/min; 1.52 mins/1kev, 91.33 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 3416 (files: 2)
+	time: 315 s = 5.2 m = 0.09 h (650.7 events/min; 1.54 mins/1kev, 92.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 3450 (files: 2)
+	time: 317 s = 5.3 m = 0.09 h (653.0 events/min; 1.53 mins/1kev, 91.88 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 3454 (files: 2)
+	time: 316 s = 5.3 m = 0.09 h (655.8 events/min; 1.52 mins/1kev, 91.49 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 3413 (files: 2)
+	time: 316 s = 5.3 m = 0.09 h (648.0 events/min; 1.54 mins/1kev, 92.59 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 3455 (files: 2)
+	time: 316 s = 5.3 m = 0.09 h (656.0 events/min; 1.52 mins/1kev, 91.46 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:07:50 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 3569 (files: 2)
+	time: 324 s = 5.4 m = 0.09 h (660.9 events/min; 1.51 mins/1kev, 90.78 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 3430 (files: 2)
+	time: 322 s = 5.4 m = 0.09 h (639.1 events/min; 1.56 mins/1kev, 93.88 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 3523 (files: 2)
+	time: 321 s = 5.3 m = 0.09 h (658.5 events/min; 1.52 mins/1kev, 91.12 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 3500 (files: 2)
+	time: 322 s = 5.4 m = 0.09 h (652.2 events/min; 1.53 mins/1kev, 92.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 3524 (files: 2)
+	time: 323 s = 5.4 m = 0.09 h (654.6 events/min; 1.53 mins/1kev, 91.66 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 3529 (files: 2)
+	time: 322 s = 5.4 m = 0.09 h (657.6 events/min; 1.52 mins/1kev, 91.24 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 3490 (files: 2)
+	time: 322 s = 5.4 m = 0.09 h (650.3 events/min; 1.54 mins/1kev, 92.26 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 3528 (files: 2)
+	time: 322 s = 5.4 m = 0.09 h (657.4 events/min; 1.52 mins/1kev, 91.27 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:07:57 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 3646 (files: 2)
+	time: 330 s = 5.5 m = 0.09 h (662.9 events/min; 1.51 mins/1kev, 90.51 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 3505 (files: 2)
+	time: 328 s = 5.5 m = 0.09 h (641.2 events/min; 1.56 mins/1kev, 93.58 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 3574 (files: 2)
+	time: 326 s = 5.4 m = 0.09 h (657.8 events/min; 1.52 mins/1kev, 91.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 3571 (files: 2)
+	time: 328 s = 5.5 m = 0.09 h (653.2 events/min; 1.53 mins/1kev, 91.85 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 3601 (files: 2)
+	time: 329 s = 5.5 m = 0.09 h (656.7 events/min; 1.52 mins/1kev, 91.36 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 3599 (files: 2)
+	time: 328 s = 5.5 m = 0.09 h (658.4 events/min; 1.52 mins/1kev, 91.14 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 3560 (files: 2)
+	time: 329 s = 5.5 m = 0.09 h (649.2 events/min; 1.54 mins/1kev, 92.42 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 3600 (files: 2)
+	time: 329 s = 5.5 m = 0.09 h (656.5 events/min; 1.52 mins/1kev, 91.39 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:08:03 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 3717 (files: 2)
+	time: 336 s = 5.6 m = 0.09 h (663.8 events/min; 1.51 mins/1kev, 90.40 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 3578 (files: 2)
+	time: 334 s = 5.6 m = 0.09 h (642.8 events/min; 1.56 mins/1kev, 93.35 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 3625 (files: 2)
+	time: 334 s = 5.6 m = 0.09 h (651.2 events/min; 1.54 mins/1kev, 92.14 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 3643 (files: 2)
+	time: 335 s = 5.6 m = 0.09 h (652.5 events/min; 1.53 mins/1kev, 91.96 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 3678 (files: 2)
+	time: 336 s = 5.6 m = 0.09 h (656.8 events/min; 1.52 mins/1kev, 91.35 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 3673 (files: 2)
+	time: 335 s = 5.6 m = 0.09 h (657.9 events/min; 1.52 mins/1kev, 91.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 3635 (files: 2)
+	time: 335 s = 5.6 m = 0.09 h (651.0 events/min; 1.54 mins/1kev, 92.16 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 3678 (files: 2)
+	time: 335 s = 5.6 m = 0.09 h (658.7 events/min; 1.52 mins/1kev, 91.08 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:08:09 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 3798 (files: 2)
+	time: 343 s = 5.7 m = 0.10 h (664.4 events/min; 1.51 mins/1kev, 90.31 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 3657 (files: 2)
+	time: 341 s = 5.7 m = 0.09 h (643.5 events/min; 1.55 mins/1kev, 93.25 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 3699 (files: 2)
+	time: 341 s = 5.7 m = 0.09 h (650.9 events/min; 1.54 mins/1kev, 92.19 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 3716 (files: 2)
+	time: 341 s = 5.7 m = 0.09 h (653.8 events/min; 1.53 mins/1kev, 91.77 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 3758 (files: 2)
+	time: 342 s = 5.7 m = 0.10 h (659.3 events/min; 1.52 mins/1kev, 91.01 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 3747 (files: 2)
+	time: 341 s = 5.7 m = 0.09 h (659.3 events/min; 1.52 mins/1kev, 91.01 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 3714 (files: 2)
+	time: 342 s = 5.7 m = 0.10 h (651.6 events/min; 1.53 mins/1kev, 92.08 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 3755 (files: 2)
+	time: 342 s = 5.7 m = 0.10 h (658.8 events/min; 1.52 mins/1kev, 91.08 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:08:16 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 3878 (files: 2)
+	time: 349 s = 5.8 m = 0.10 h (666.7 events/min; 1.50 mins/1kev, 89.99 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 3736 (files: 2)
+	time: 347 s = 5.8 m = 0.10 h (646.0 events/min; 1.55 mins/1kev, 92.88 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 3776 (files: 2)
+	time: 348 s = 5.8 m = 0.10 h (651.0 events/min; 1.54 mins/1kev, 92.16 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 3799 (files: 2)
+	time: 348 s = 5.8 m = 0.10 h (655.0 events/min; 1.53 mins/1kev, 91.60 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 3845 (files: 2)
+	time: 349 s = 5.8 m = 0.10 h (661.0 events/min; 1.51 mins/1kev, 90.77 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 3829 (files: 2)
+	time: 348 s = 5.8 m = 0.10 h (660.2 events/min; 1.51 mins/1kev, 90.89 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 3800 (files: 2)
+	time: 348 s = 5.8 m = 0.10 h (655.2 events/min; 1.53 mins/1kev, 91.58 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 3843 (files: 2)
+	time: 349 s = 5.8 m = 0.10 h (660.7 events/min; 1.51 mins/1kev, 90.81 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:08:23 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 3953 (files: 2)
+	time: 356 s = 5.9 m = 0.10 h (666.2 events/min; 1.50 mins/1kev, 90.06 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 3819 (files: 2)
+	time: 354 s = 5.9 m = 0.10 h (647.3 events/min; 1.54 mins/1kev, 92.69 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 3850 (files: 2)
+	time: 354 s = 5.9 m = 0.10 h (652.5 events/min; 1.53 mins/1kev, 91.95 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 3874 (files: 2)
+	time: 354 s = 5.9 m = 0.10 h (656.6 events/min; 1.52 mins/1kev, 91.38 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 3913 (files: 2)
+	time: 356 s = 5.9 m = 0.10 h (659.5 events/min; 1.52 mins/1kev, 90.98 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 3908 (files: 2)
+	time: 354 s = 5.9 m = 0.10 h (662.4 events/min; 1.51 mins/1kev, 90.58 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 3870 (files: 2)
+	time: 355 s = 5.9 m = 0.10 h (654.1 events/min; 1.53 mins/1kev, 91.73 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 3912 (files: 2)
+	time: 355 s = 5.9 m = 0.10 h (661.2 events/min; 1.51 mins/1kev, 90.75 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:08:29 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 4033 (files: 2)
+	time: 363 s = 6.0 m = 0.10 h (666.6 events/min; 1.50 mins/1kev, 90.01 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 3900 (files: 2)
+	time: 361 s = 6.0 m = 0.10 h (648.2 events/min; 1.54 mins/1kev, 92.56 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 3924 (files: 2)
+	time: 361 s = 6.0 m = 0.10 h (652.2 events/min; 1.53 mins/1kev, 92.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 3951 (files: 2)
+	time: 361 s = 6.0 m = 0.10 h (656.7 events/min; 1.52 mins/1kev, 91.37 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 3996 (files: 2)
+	time: 362 s = 6.0 m = 0.10 h (662.3 events/min; 1.51 mins/1kev, 90.59 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 4002 (files: 2)
+	time: 361 s = 6.0 m = 0.10 h (665.2 events/min; 1.50 mins/1kev, 90.20 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 3958 (files: 2)
+	time: 362 s = 6.0 m = 0.10 h (656.0 events/min; 1.52 mins/1kev, 91.46 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 3996 (files: 2)
+	time: 362 s = 6.0 m = 0.10 h (662.3 events/min; 1.51 mins/1kev, 90.59 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:08:36 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 4119 (files: 2)
+	time: 369 s = 6.2 m = 0.10 h (669.8 events/min; 1.49 mins/1kev, 89.58 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 3980 (files: 2)
+	time: 367 s = 6.1 m = 0.10 h (650.7 events/min; 1.54 mins/1kev, 92.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 4002 (files: 2)
+	time: 367 s = 6.1 m = 0.10 h (654.3 events/min; 1.53 mins/1kev, 91.70 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 4040 (files: 2)
+	time: 368 s = 6.1 m = 0.10 h (658.7 events/min; 1.52 mins/1kev, 91.09 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 4083 (files: 2)
+	time: 369 s = 6.2 m = 0.10 h (663.9 events/min; 1.51 mins/1kev, 90.37 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 4092 (files: 2)
+	time: 368 s = 6.1 m = 0.10 h (667.2 events/min; 1.50 mins/1kev, 89.93 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 4046 (files: 2)
+	time: 368 s = 6.1 m = 0.10 h (659.7 events/min; 1.52 mins/1kev, 90.95 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 4081 (files: 2)
+	time: 368 s = 6.1 m = 0.10 h (665.4 events/min; 1.50 mins/1kev, 90.17 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:08:43 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 4206 (files: 2)
+	time: 376 s = 6.3 m = 0.10 h (671.2 events/min; 1.49 mins/1kev, 89.40 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 4068 (files: 2)
+	time: 374 s = 6.2 m = 0.10 h (652.6 events/min; 1.53 mins/1kev, 91.94 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 4084 (files: 2)
+	time: 374 s = 6.2 m = 0.10 h (655.2 events/min; 1.53 mins/1kev, 91.58 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 4121 (files: 2)
+	time: 374 s = 6.2 m = 0.10 h (661.1 events/min; 1.51 mins/1kev, 90.75 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 4171 (files: 2)
+	time: 375 s = 6.2 m = 0.10 h (667.4 events/min; 1.50 mins/1kev, 89.91 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 4176 (files: 2)
+	time: 375 s = 6.2 m = 0.10 h (668.2 events/min; 1.50 mins/1kev, 89.80 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 4127 (files: 2)
+	time: 375 s = 6.2 m = 0.10 h (660.3 events/min; 1.51 mins/1kev, 90.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 4165 (files: 2)
+	time: 375 s = 6.2 m = 0.10 h (666.4 events/min; 1.50 mins/1kev, 90.04 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:08:49 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 4299 (files: 2)
+	time: 382 s = 6.4 m = 0.11 h (675.2 events/min; 1.48 mins/1kev, 88.86 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 4149 (files: 2)
+	time: 380 s = 6.3 m = 0.11 h (655.1 events/min; 1.53 mins/1kev, 91.59 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 4172 (files: 2)
+	time: 381 s = 6.3 m = 0.11 h (657.0 events/min; 1.52 mins/1kev, 91.32 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 4203 (files: 2)
+	time: 381 s = 6.3 m = 0.11 h (661.9 events/min; 1.51 mins/1kev, 90.65 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 4255 (files: 2)
+	time: 382 s = 6.4 m = 0.11 h (668.3 events/min; 1.50 mins/1kev, 89.78 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 4262 (files: 2)
+	time: 381 s = 6.3 m = 0.11 h (671.2 events/min; 1.49 mins/1kev, 89.39 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 4214 (files: 2)
+	time: 382 s = 6.4 m = 0.11 h (661.9 events/min; 1.51 mins/1kev, 90.65 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 4255 (files: 2)
+	time: 382 s = 6.4 m = 0.11 h (668.3 events/min; 1.50 mins/1kev, 89.78 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:08:56 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 4381 (files: 2)
+	time: 389 s = 6.5 m = 0.11 h (675.7 events/min; 1.48 mins/1kev, 88.79 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 4225 (files: 2)
+	time: 387 s = 6.5 m = 0.11 h (655.0 events/min; 1.53 mins/1kev, 91.60 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 4254 (files: 2)
+	time: 387 s = 6.5 m = 0.11 h (659.5 events/min; 1.52 mins/1kev, 90.97 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 4290 (files: 2)
+	time: 388 s = 6.5 m = 0.11 h (663.4 events/min; 1.51 mins/1kev, 90.44 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 4339 (files: 2)
+	time: 389 s = 6.5 m = 0.11 h (669.3 events/min; 1.49 mins/1kev, 89.65 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 4342 (files: 2)
+	time: 388 s = 6.5 m = 0.11 h (671.4 events/min; 1.49 mins/1kev, 89.36 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 4299 (files: 2)
+	time: 388 s = 6.5 m = 0.11 h (664.8 events/min; 1.50 mins/1kev, 90.25 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 4334 (files: 2)
+	time: 388 s = 6.5 m = 0.11 h (670.2 events/min; 1.49 mins/1kev, 89.52 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:09:02 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 4452 (files: 2)
+	time: 396 s = 6.6 m = 0.11 h (674.5 events/min; 1.48 mins/1kev, 88.95 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 4301 (files: 2)
+	time: 394 s = 6.6 m = 0.11 h (655.0 events/min; 1.53 mins/1kev, 91.61 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 4324 (files: 2)
+	time: 393 s = 6.5 m = 0.11 h (660.2 events/min; 1.51 mins/1kev, 90.89 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 4368 (files: 2)
+	time: 394 s = 6.6 m = 0.11 h (665.2 events/min; 1.50 mins/1kev, 90.20 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 4412 (files: 2)
+	time: 394 s = 6.6 m = 0.11 h (671.9 events/min; 1.49 mins/1kev, 89.30 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 4414 (files: 2)
+	time: 394 s = 6.6 m = 0.11 h (672.2 events/min; 1.49 mins/1kev, 89.26 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 4373 (files: 2)
+	time: 394 s = 6.6 m = 0.11 h (665.9 events/min; 1.50 mins/1kev, 90.10 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 4392 (files: 2)
+	time: 393 s = 6.5 m = 0.11 h (670.5 events/min; 1.49 mins/1kev, 89.48 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:09:09 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 4535 (files: 2)
+	time: 402 s = 6.7 m = 0.11 h (676.9 events/min; 1.48 mins/1kev, 88.64 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 4383 (files: 2)
+	time: 400 s = 6.7 m = 0.11 h (657.4 events/min; 1.52 mins/1kev, 91.26 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 4402 (files: 2)
+	time: 400 s = 6.7 m = 0.11 h (660.3 events/min; 1.51 mins/1kev, 90.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 4448 (files: 2)
+	time: 401 s = 6.7 m = 0.11 h (665.5 events/min; 1.50 mins/1kev, 90.15 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 4463 (files: 3)
+	time: 402 s = 6.7 m = 0.11 h (666.1 events/min; 1.50 mins/1kev, 90.07 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 4504 (files: 2)
+	time: 401 s = 6.7 m = 0.11 h (673.9 events/min; 1.48 mins/1kev, 89.03 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 4413 (files: 3)
+	time: 401 s = 6.7 m = 0.11 h (660.3 events/min; 1.51 mins/1kev, 90.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 4443 (files: 3)
+	time: 401 s = 6.7 m = 0.11 h (664.8 events/min; 1.50 mins/1kev, 90.25 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:09:16 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 4598 (files: 2)
+	time: 407 s = 6.8 m = 0.11 h (677.8 events/min; 1.48 mins/1kev, 88.52 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 4460 (files: 2)
+	time: 407 s = 6.8 m = 0.11 h (657.5 events/min; 1.52 mins/1kev, 91.26 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 4473 (files: 2)
+	time: 407 s = 6.8 m = 0.11 h (659.4 events/min; 1.52 mins/1kev, 90.99 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 4526 (files: 2)
+	time: 407 s = 6.8 m = 0.11 h (667.2 events/min; 1.50 mins/1kev, 89.92 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 4538 (files: 3)
+	time: 408 s = 6.8 m = 0.11 h (667.4 events/min; 1.50 mins/1kev, 89.91 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 4580 (files: 2)
+	time: 407 s = 6.8 m = 0.11 h (675.2 events/min; 1.48 mins/1kev, 88.86 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 4493 (files: 3)
+	time: 408 s = 6.8 m = 0.11 h (660.7 events/min; 1.51 mins/1kev, 90.81 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 4524 (files: 3)
+	time: 408 s = 6.8 m = 0.11 h (665.3 events/min; 1.50 mins/1kev, 90.19 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:09:22 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 4649 (files: 3)
+	time: 415 s = 6.9 m = 0.12 h (672.1 events/min; 1.49 mins/1kev, 89.27 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 4505 (files: 3)
+	time: 410 s = 6.8 m = 0.11 h (659.3 events/min; 1.52 mins/1kev, 91.01 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 4556 (files: 2)
+	time: 414 s = 6.9 m = 0.12 h (660.3 events/min; 1.51 mins/1kev, 90.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 4598 (files: 2)
+	time: 413 s = 6.9 m = 0.11 h (668.0 events/min; 1.50 mins/1kev, 89.82 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 4615 (files: 3)
+	time: 415 s = 6.9 m = 0.12 h (667.2 events/min; 1.50 mins/1kev, 89.92 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 4619 (files: 3)
+	time: 414 s = 6.9 m = 0.12 h (669.4 events/min; 1.49 mins/1kev, 89.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 4568 (files: 3)
+	time: 414 s = 6.9 m = 0.12 h (662.0 events/min; 1.51 mins/1kev, 90.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 4608 (files: 3)
+	time: 414 s = 6.9 m = 0.12 h (667.8 events/min; 1.50 mins/1kev, 89.84 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:09:29 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 4726 (files: 3)
+	time: 422 s = 7.0 m = 0.12 h (671.9 events/min; 1.49 mins/1kev, 89.29 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 4575 (files: 3)
+	time: 420 s = 7.0 m = 0.12 h (653.6 events/min; 1.53 mins/1kev, 91.80 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 4602 (files: 3)
+	time: 420 s = 7.0 m = 0.12 h (657.4 events/min; 1.52 mins/1kev, 91.26 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 4637 (files: 3)
+	time: 421 s = 7.0 m = 0.12 h (660.9 events/min; 1.51 mins/1kev, 90.79 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 4689 (files: 3)
+	time: 422 s = 7.0 m = 0.12 h (666.7 events/min; 1.50 mins/1kev, 90.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 4686 (files: 3)
+	time: 421 s = 7.0 m = 0.12 h (667.8 events/min; 1.50 mins/1kev, 89.84 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 4649 (files: 3)
+	time: 421 s = 7.0 m = 0.12 h (662.6 events/min; 1.51 mins/1kev, 90.56 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 4678 (files: 3)
+	time: 421 s = 7.0 m = 0.12 h (666.7 events/min; 1.50 mins/1kev, 90.00 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:09:36 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 4791 (files: 3)
+	time: 429 s = 7.2 m = 0.12 h (670.1 events/min; 1.49 mins/1kev, 89.54 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 4651 (files: 3)
+	time: 427 s = 7.1 m = 0.12 h (653.5 events/min; 1.53 mins/1kev, 91.81 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 4671 (files: 3)
+	time: 427 s = 7.1 m = 0.12 h (656.3 events/min; 1.52 mins/1kev, 91.42 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 4699 (files: 3)
+	time: 427 s = 7.1 m = 0.12 h (660.3 events/min; 1.51 mins/1kev, 90.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 4756 (files: 3)
+	time: 429 s = 7.2 m = 0.12 h (665.2 events/min; 1.50 mins/1kev, 90.20 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 4752 (files: 3)
+	time: 428 s = 7.1 m = 0.12 h (666.2 events/min; 1.50 mins/1kev, 90.07 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 4713 (files: 3)
+	time: 428 s = 7.1 m = 0.12 h (660.7 events/min; 1.51 mins/1kev, 90.81 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 4750 (files: 3)
+	time: 429 s = 7.2 m = 0.12 h (664.3 events/min; 1.51 mins/1kev, 90.32 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:09:43 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 4852 (files: 3)
+	time: 436 s = 7.3 m = 0.12 h (667.7 events/min; 1.50 mins/1kev, 89.86 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 4706 (files: 3)
+	time: 434 s = 7.2 m = 0.12 h (650.6 events/min; 1.54 mins/1kev, 92.22 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 4731 (files: 3)
+	time: 434 s = 7.2 m = 0.12 h (654.1 events/min; 1.53 mins/1kev, 91.74 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 4753 (files: 3)
+	time: 435 s = 7.2 m = 0.12 h (655.6 events/min; 1.53 mins/1kev, 91.52 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 4820 (files: 3)
+	time: 436 s = 7.3 m = 0.12 h (663.3 events/min; 1.51 mins/1kev, 90.46 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 4821 (files: 3)
+	time: 435 s = 7.2 m = 0.12 h (665.0 events/min; 1.50 mins/1kev, 90.23 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 4787 (files: 3)
+	time: 436 s = 7.3 m = 0.12 h (658.8 events/min; 1.52 mins/1kev, 91.08 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 4822 (files: 3)
+	time: 436 s = 7.3 m = 0.12 h (663.6 events/min; 1.51 mins/1kev, 90.42 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:09:50 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 4924 (files: 3)
+	time: 443 s = 7.4 m = 0.12 h (666.9 events/min; 1.50 mins/1kev, 89.97 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 4787 (files: 3)
+	time: 442 s = 7.4 m = 0.12 h (649.8 events/min; 1.54 mins/1kev, 92.33 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 4807 (files: 3)
+	time: 442 s = 7.4 m = 0.12 h (652.5 events/min; 1.53 mins/1kev, 91.95 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 4827 (files: 3)
+	time: 442 s = 7.4 m = 0.12 h (655.2 events/min; 1.53 mins/1kev, 91.57 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 4896 (files: 3)
+	time: 443 s = 7.4 m = 0.12 h (663.1 events/min; 1.51 mins/1kev, 90.48 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 4897 (files: 3)
+	time: 443 s = 7.4 m = 0.12 h (663.3 events/min; 1.51 mins/1kev, 90.46 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 4866 (files: 3)
+	time: 443 s = 7.4 m = 0.12 h (659.1 events/min; 1.52 mins/1kev, 91.04 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 4896 (files: 3)
+	time: 443 s = 7.4 m = 0.12 h (663.1 events/min; 1.51 mins/1kev, 90.48 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:09:58 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 4998 (files: 3)
+	time: 451 s = 7.5 m = 0.13 h (664.9 events/min; 1.50 mins/1kev, 90.24 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 4857 (files: 3)
+	time: 449 s = 7.5 m = 0.12 h (649.0 events/min; 1.54 mins/1kev, 92.44 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 4881 (files: 3)
+	time: 449 s = 7.5 m = 0.12 h (652.2 events/min; 1.53 mins/1kev, 91.99 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 4889 (files: 3)
+	time: 449 s = 7.5 m = 0.12 h (653.3 events/min; 1.53 mins/1kev, 91.84 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 4963 (files: 3)
+	time: 451 s = 7.5 m = 0.13 h (660.3 events/min; 1.51 mins/1kev, 90.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 4972 (files: 3)
+	time: 450 s = 7.5 m = 0.12 h (662.9 events/min; 1.51 mins/1kev, 90.51 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 4934 (files: 3)
+	time: 450 s = 7.5 m = 0.12 h (657.9 events/min; 1.52 mins/1kev, 91.20 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 4966 (files: 3)
+	time: 450 s = 7.5 m = 0.12 h (662.1 events/min; 1.51 mins/1kev, 90.62 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:10:04 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 5074 (files: 3)
+	time: 458 s = 7.6 m = 0.13 h (664.7 events/min; 1.50 mins/1kev, 90.26 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 4944 (files: 3)
+	time: 456 s = 7.6 m = 0.13 h (650.5 events/min; 1.54 mins/1kev, 92.23 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 4972 (files: 3)
+	time: 456 s = 7.6 m = 0.13 h (654.2 events/min; 1.53 mins/1kev, 91.71 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 4966 (files: 3)
+	time: 456 s = 7.6 m = 0.13 h (653.4 events/min; 1.53 mins/1kev, 91.82 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 5040 (files: 3)
+	time: 458 s = 7.6 m = 0.13 h (660.3 events/min; 1.51 mins/1kev, 90.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 5052 (files: 3)
+	time: 457 s = 7.6 m = 0.13 h (663.3 events/min; 1.51 mins/1kev, 90.46 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 5024 (files: 3)
+	time: 457 s = 7.6 m = 0.13 h (659.6 events/min; 1.52 mins/1kev, 90.96 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 5045 (files: 3)
+	time: 457 s = 7.6 m = 0.13 h (662.4 events/min; 1.51 mins/1kev, 90.58 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:10:12 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 5152 (files: 3)
+	time: 465 s = 7.8 m = 0.13 h (664.8 events/min; 1.50 mins/1kev, 90.26 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 5024 (files: 3)
+	time: 463 s = 7.7 m = 0.13 h (651.1 events/min; 1.54 mins/1kev, 92.16 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 5048 (files: 3)
+	time: 464 s = 7.7 m = 0.13 h (652.8 events/min; 1.53 mins/1kev, 91.92 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 5040 (files: 3)
+	time: 464 s = 7.7 m = 0.13 h (651.7 events/min; 1.53 mins/1kev, 92.06 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 5116 (files: 3)
+	time: 466 s = 7.8 m = 0.13 h (658.7 events/min; 1.52 mins/1kev, 91.09 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 5124 (files: 3)
+	time: 464 s = 7.7 m = 0.13 h (662.6 events/min; 1.51 mins/1kev, 90.55 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 5089 (files: 3)
+	time: 465 s = 7.8 m = 0.13 h (656.6 events/min; 1.52 mins/1kev, 91.37 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 5123 (files: 3)
+	time: 465 s = 7.8 m = 0.13 h (661.0 events/min; 1.51 mins/1kev, 90.77 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:10:20 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 5234 (files: 3)
+	time: 473 s = 7.9 m = 0.13 h (663.9 events/min; 1.51 mins/1kev, 90.37 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 5106 (files: 3)
+	time: 471 s = 7.8 m = 0.13 h (650.4 events/min; 1.54 mins/1kev, 92.24 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 5127 (files: 3)
+	time: 471 s = 7.8 m = 0.13 h (653.1 events/min; 1.53 mins/1kev, 91.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 5124 (files: 3)
+	time: 472 s = 7.9 m = 0.13 h (651.4 events/min; 1.54 mins/1kev, 92.12 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 5190 (files: 3)
+	time: 473 s = 7.9 m = 0.13 h (658.4 events/min; 1.52 mins/1kev, 91.14 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 5208 (files: 3)
+	time: 472 s = 7.9 m = 0.13 h (662.0 events/min; 1.51 mins/1kev, 90.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 5174 (files: 3)
+	time: 473 s = 7.9 m = 0.13 h (656.3 events/min; 1.52 mins/1kev, 91.42 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 5202 (files: 3)
+	time: 473 s = 7.9 m = 0.13 h (659.9 events/min; 1.52 mins/1kev, 90.93 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:10:27 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 5308 (files: 3)
+	time: 480 s = 8.0 m = 0.13 h (663.5 events/min; 1.51 mins/1kev, 90.43 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 5190 (files: 3)
+	time: 480 s = 8.0 m = 0.13 h (648.8 events/min; 1.54 mins/1kev, 92.49 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 5211 (files: 3)
+	time: 480 s = 8.0 m = 0.13 h (651.4 events/min; 1.54 mins/1kev, 92.11 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 5199 (files: 3)
+	time: 480 s = 8.0 m = 0.13 h (649.9 events/min; 1.54 mins/1kev, 92.33 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 5278 (files: 3)
+	time: 481 s = 8.0 m = 0.13 h (658.4 events/min; 1.52 mins/1kev, 91.13 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 5287 (files: 3)
+	time: 481 s = 8.0 m = 0.13 h (659.5 events/min; 1.52 mins/1kev, 90.98 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 5260 (files: 3)
+	time: 481 s = 8.0 m = 0.13 h (656.1 events/min; 1.52 mins/1kev, 91.44 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 5290 (files: 3)
+	time: 482 s = 8.0 m = 0.13 h (658.5 events/min; 1.52 mins/1kev, 91.12 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:10:36 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 5373 (files: 3)
+	time: 489 s = 8.2 m = 0.14 h (659.3 events/min; 1.52 mins/1kev, 91.01 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 5256 (files: 3)
+	time: 487 s = 8.1 m = 0.14 h (647.6 events/min; 1.54 mins/1kev, 92.66 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 5289 (files: 3)
+	time: 488 s = 8.1 m = 0.14 h (650.3 events/min; 1.54 mins/1kev, 92.27 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 5274 (files: 3)
+	time: 488 s = 8.1 m = 0.14 h (648.4 events/min; 1.54 mins/1kev, 92.53 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 5339 (files: 3)
+	time: 489 s = 8.2 m = 0.14 h (655.1 events/min; 1.53 mins/1kev, 91.59 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 5361 (files: 3)
+	time: 488 s = 8.1 m = 0.14 h (659.1 events/min; 1.52 mins/1kev, 91.03 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 5324 (files: 3)
+	time: 488 s = 8.1 m = 0.14 h (654.6 events/min; 1.53 mins/1kev, 91.66 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 5351 (files: 3)
+	time: 489 s = 8.2 m = 0.14 h (656.6 events/min; 1.52 mins/1kev, 91.38 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:10:43 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 5424 (files: 3)
+	time: 496 s = 8.3 m = 0.14 h (656.1 events/min; 1.52 mins/1kev, 91.45 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 5315 (files: 3)
+	time: 494 s = 8.2 m = 0.14 h (645.5 events/min; 1.55 mins/1kev, 92.94 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 5373 (files: 3)
+	time: 495 s = 8.2 m = 0.14 h (651.3 events/min; 1.54 mins/1kev, 92.13 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 5341 (files: 3)
+	time: 495 s = 8.2 m = 0.14 h (647.4 events/min; 1.54 mins/1kev, 92.68 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 5413 (files: 3)
+	time: 496 s = 8.3 m = 0.14 h (654.8 events/min; 1.53 mins/1kev, 91.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 5432 (files: 3)
+	time: 496 s = 8.3 m = 0.14 h (657.1 events/min; 1.52 mins/1kev, 91.31 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 5393 (files: 3)
+	time: 496 s = 8.3 m = 0.14 h (652.4 events/min; 1.53 mins/1kev, 91.97 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 5426 (files: 3)
+	time: 496 s = 8.3 m = 0.14 h (656.4 events/min; 1.52 mins/1kev, 91.41 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:10:50 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 5497 (files: 3)
+	time: 504 s = 8.4 m = 0.14 h (654.4 events/min; 1.53 mins/1kev, 91.69 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 5392 (files: 3)
+	time: 502 s = 8.4 m = 0.14 h (644.5 events/min; 1.55 mins/1kev, 93.10 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 5446 (files: 3)
+	time: 502 s = 8.4 m = 0.14 h (650.9 events/min; 1.54 mins/1kev, 92.18 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 5412 (files: 3)
+	time: 502 s = 8.4 m = 0.14 h (646.9 events/min; 1.55 mins/1kev, 92.76 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 5485 (files: 3)
+	time: 503 s = 8.4 m = 0.14 h (654.3 events/min; 1.53 mins/1kev, 91.70 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 5515 (files: 3)
+	time: 503 s = 8.4 m = 0.14 h (657.9 events/min; 1.52 mins/1kev, 91.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 5459 (files: 3)
+	time: 503 s = 8.4 m = 0.14 h (651.2 events/min; 1.54 mins/1kev, 92.14 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 5510 (files: 3)
+	time: 503 s = 8.4 m = 0.14 h (657.3 events/min; 1.52 mins/1kev, 91.29 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:10:57 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 5562 (files: 3)
+	time: 511 s = 8.5 m = 0.14 h (653.1 events/min; 1.53 mins/1kev, 91.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 5462 (files: 3)
+	time: 509 s = 8.5 m = 0.14 h (643.9 events/min; 1.55 mins/1kev, 93.19 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 5512 (files: 3)
+	time: 509 s = 8.5 m = 0.14 h (649.7 events/min; 1.54 mins/1kev, 92.34 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 5498 (files: 3)
+	time: 510 s = 8.5 m = 0.14 h (646.8 events/min; 1.55 mins/1kev, 92.76 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 5563 (files: 3)
+	time: 511 s = 8.5 m = 0.14 h (653.2 events/min; 1.53 mins/1kev, 91.86 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 5589 (files: 3)
+	time: 510 s = 8.5 m = 0.14 h (657.5 events/min; 1.52 mins/1kev, 91.25 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 5543 (files: 3)
+	time: 511 s = 8.5 m = 0.14 h (650.8 events/min; 1.54 mins/1kev, 92.19 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 5588 (files: 3)
+	time: 511 s = 8.5 m = 0.14 h (656.1 events/min; 1.52 mins/1kev, 91.45 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:11:06 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 5637 (files: 3)
+	time: 519 s = 8.7 m = 0.14 h (651.7 events/min; 1.53 mins/1kev, 92.07 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 5545 (files: 3)
+	time: 517 s = 8.6 m = 0.14 h (643.5 events/min; 1.55 mins/1kev, 93.24 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 5593 (files: 3)
+	time: 518 s = 8.6 m = 0.14 h (647.8 events/min; 1.54 mins/1kev, 92.62 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 5572 (files: 3)
+	time: 518 s = 8.6 m = 0.14 h (645.4 events/min; 1.55 mins/1kev, 92.96 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 5643 (files: 3)
+	time: 520 s = 8.7 m = 0.14 h (651.1 events/min; 1.54 mins/1kev, 92.15 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 5673 (files: 3)
+	time: 519 s = 8.7 m = 0.14 h (655.8 events/min; 1.52 mins/1kev, 91.49 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 5628 (files: 3)
+	time: 519 s = 8.7 m = 0.14 h (650.6 events/min; 1.54 mins/1kev, 92.22 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 5667 (files: 3)
+	time: 519 s = 8.7 m = 0.14 h (655.1 events/min; 1.53 mins/1kev, 91.58 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:11:14 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 5716 (files: 3)
+	time: 527 s = 8.8 m = 0.15 h (650.8 events/min; 1.54 mins/1kev, 92.20 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 5632 (files: 3)
+	time: 525 s = 8.8 m = 0.15 h (643.7 events/min; 1.55 mins/1kev, 93.22 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 5674 (files: 3)
+	time: 525 s = 8.8 m = 0.15 h (648.5 events/min; 1.54 mins/1kev, 92.53 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 5649 (files: 3)
+	time: 526 s = 8.8 m = 0.15 h (644.4 events/min; 1.55 mins/1kev, 93.11 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 5730 (files: 3)
+	time: 527 s = 8.8 m = 0.15 h (652.4 events/min; 1.53 mins/1kev, 91.97 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 5754 (files: 3)
+	time: 527 s = 8.8 m = 0.15 h (655.1 events/min; 1.53 mins/1kev, 91.59 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 5718 (files: 3)
+	time: 527 s = 8.8 m = 0.15 h (651.0 events/min; 1.54 mins/1kev, 92.17 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 5750 (files: 3)
+	time: 527 s = 8.8 m = 0.15 h (654.6 events/min; 1.53 mins/1kev, 91.65 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:11:22 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 5800 (files: 3)
+	time: 535 s = 8.9 m = 0.15 h (650.5 events/min; 1.54 mins/1kev, 92.24 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 5717 (files: 3)
+	time: 533 s = 8.9 m = 0.15 h (643.6 events/min; 1.55 mins/1kev, 93.23 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 5749 (files: 3)
+	time: 534 s = 8.9 m = 0.15 h (646.0 events/min; 1.55 mins/1kev, 92.89 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 5733 (files: 3)
+	time: 534 s = 8.9 m = 0.15 h (644.2 events/min; 1.55 mins/1kev, 93.14 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 5812 (files: 3)
+	time: 535 s = 8.9 m = 0.15 h (651.8 events/min; 1.53 mins/1kev, 92.05 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 5837 (files: 3)
+	time: 535 s = 8.9 m = 0.15 h (654.6 events/min; 1.53 mins/1kev, 91.66 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 5794 (files: 3)
+	time: 535 s = 8.9 m = 0.15 h (649.8 events/min; 1.54 mins/1kev, 92.34 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 5817 (files: 3)
+	time: 535 s = 8.9 m = 0.15 h (652.4 events/min; 1.53 mins/1kev, 91.97 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:11:30 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 5873 (files: 3)
+	time: 543 s = 9.1 m = 0.15 h (649.0 events/min; 1.54 mins/1kev, 92.46 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 5792 (files: 3)
+	time: 541 s = 9.0 m = 0.15 h (642.4 events/min; 1.56 mins/1kev, 93.40 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 5824 (files: 3)
+	time: 541 s = 9.0 m = 0.15 h (645.9 events/min; 1.55 mins/1kev, 92.89 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 5808 (files: 3)
+	time: 542 s = 9.0 m = 0.15 h (643.0 events/min; 1.56 mins/1kev, 93.32 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 5871 (files: 3)
+	time: 543 s = 9.1 m = 0.15 h (648.7 events/min; 1.54 mins/1kev, 92.49 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 5904 (files: 3)
+	time: 543 s = 9.1 m = 0.15 h (652.4 events/min; 1.53 mins/1kev, 91.97 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 5869 (files: 3)
+	time: 543 s = 9.1 m = 0.15 h (648.5 events/min; 1.54 mins/1kev, 92.52 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 5894 (files: 3)
+	time: 543 s = 9.1 m = 0.15 h (651.3 events/min; 1.54 mins/1kev, 92.13 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:11:38 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 5949 (files: 3)
+	time: 551 s = 9.2 m = 0.15 h (647.8 events/min; 1.54 mins/1kev, 92.62 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 5866 (files: 3)
+	time: 549 s = 9.2 m = 0.15 h (641.1 events/min; 1.56 mins/1kev, 93.59 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 5905 (files: 3)
+	time: 550 s = 9.2 m = 0.15 h (644.2 events/min; 1.55 mins/1kev, 93.14 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 5883 (files: 3)
+	time: 550 s = 9.2 m = 0.15 h (641.8 events/min; 1.56 mins/1kev, 93.49 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 5954 (files: 3)
+	time: 551 s = 9.2 m = 0.15 h (648.3 events/min; 1.54 mins/1kev, 92.54 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 5978 (files: 3)
+	time: 551 s = 9.2 m = 0.15 h (651.0 events/min; 1.54 mins/1kev, 92.17 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 5947 (files: 3)
+	time: 551 s = 9.2 m = 0.15 h (647.6 events/min; 1.54 mins/1kev, 92.65 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 5976 (files: 3)
+	time: 552 s = 9.2 m = 0.15 h (649.6 events/min; 1.54 mins/1kev, 92.37 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:11:46 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 6027 (files: 3)
+	time: 559 s = 9.3 m = 0.16 h (646.9 events/min; 1.55 mins/1kev, 92.75 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 5945 (files: 3)
+	time: 558 s = 9.3 m = 0.15 h (639.2 events/min; 1.56 mins/1kev, 93.86 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 5994 (files: 3)
+	time: 558 s = 9.3 m = 0.15 h (644.5 events/min; 1.55 mins/1kev, 93.09 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 5965 (files: 3)
+	time: 558 s = 9.3 m = 0.15 h (641.4 events/min; 1.56 mins/1kev, 93.55 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 6038 (files: 3)
+	time: 559 s = 9.3 m = 0.16 h (648.1 events/min; 1.54 mins/1kev, 92.58 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 6063 (files: 3)
+	time: 559 s = 9.3 m = 0.16 h (650.8 events/min; 1.54 mins/1kev, 92.20 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 6039 (files: 3)
+	time: 559 s = 9.3 m = 0.16 h (648.2 events/min; 1.54 mins/1kev, 92.56 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 6050 (files: 3)
+	time: 559 s = 9.3 m = 0.16 h (649.4 events/min; 1.54 mins/1kev, 92.40 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:11:54 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 6091 (files: 3)
+	time: 567 s = 9.4 m = 0.16 h (644.6 events/min; 1.55 mins/1kev, 93.09 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 6002 (files: 3)
+	time: 566 s = 9.4 m = 0.16 h (636.3 events/min; 1.57 mins/1kev, 94.30 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 6049 (files: 3)
+	time: 566 s = 9.4 m = 0.16 h (641.2 events/min; 1.56 mins/1kev, 93.57 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 6023 (files: 3)
+	time: 566 s = 9.4 m = 0.16 h (638.5 events/min; 1.57 mins/1kev, 93.97 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 6097 (files: 3)
+	time: 568 s = 9.5 m = 0.16 h (644.0 events/min; 1.55 mins/1kev, 93.16 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 6124 (files: 3)
+	time: 567 s = 9.4 m = 0.16 h (648.0 events/min; 1.54 mins/1kev, 92.59 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 6100 (files: 3)
+	time: 567 s = 9.4 m = 0.16 h (645.5 events/min; 1.55 mins/1kev, 92.95 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 6112 (files: 3)
+	time: 567 s = 9.4 m = 0.16 h (646.8 events/min; 1.55 mins/1kev, 92.77 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:12:02 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 6158 (files: 3)
+	time: 575 s = 9.6 m = 0.16 h (642.6 events/min; 1.56 mins/1kev, 93.37 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 6066 (files: 3)
+	time: 574 s = 9.6 m = 0.16 h (634.1 events/min; 1.58 mins/1kev, 94.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 6122 (files: 3)
+	time: 574 s = 9.6 m = 0.16 h (639.9 events/min; 1.56 mins/1kev, 93.76 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 6085 (files: 3)
+	time: 574 s = 9.6 m = 0.16 h (636.1 events/min; 1.57 mins/1kev, 94.33 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 6163 (files: 3)
+	time: 575 s = 9.6 m = 0.16 h (643.1 events/min; 1.55 mins/1kev, 93.30 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 6188 (files: 3)
+	time: 575 s = 9.6 m = 0.16 h (645.7 events/min; 1.55 mins/1kev, 92.92 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 6167 (files: 3)
+	time: 575 s = 9.6 m = 0.16 h (643.5 events/min; 1.55 mins/1kev, 93.24 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 6171 (files: 3)
+	time: 575 s = 9.6 m = 0.16 h (643.9 events/min; 1.55 mins/1kev, 93.18 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:12:10 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 6221 (files: 3)
+	time: 583 s = 9.7 m = 0.16 h (640.2 events/min; 1.56 mins/1kev, 93.71 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 6127 (files: 3)
+	time: 581 s = 9.7 m = 0.16 h (632.7 events/min; 1.58 mins/1kev, 94.83 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 6180 (files: 3)
+	time: 582 s = 9.7 m = 0.16 h (637.1 events/min; 1.57 mins/1kev, 94.17 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 6150 (files: 3)
+	time: 582 s = 9.7 m = 0.16 h (634.0 events/min; 1.58 mins/1kev, 94.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 6227 (files: 3)
+	time: 583 s = 9.7 m = 0.16 h (640.9 events/min; 1.56 mins/1kev, 93.62 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 6250 (files: 3)
+	time: 582 s = 9.7 m = 0.16 h (644.3 events/min; 1.55 mins/1kev, 93.12 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 6236 (files: 3)
+	time: 583 s = 9.7 m = 0.16 h (641.8 events/min; 1.56 mins/1kev, 93.49 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 6243 (files: 3)
+	time: 583 s = 9.7 m = 0.16 h (642.5 events/min; 1.56 mins/1kev, 93.38 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:12:17 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 6295 (files: 3)
+	time: 591 s = 9.8 m = 0.16 h (639.1 events/min; 1.56 mins/1kev, 93.88 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 6203 (files: 3)
+	time: 589 s = 9.8 m = 0.16 h (631.9 events/min; 1.58 mins/1kev, 94.95 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 6249 (files: 3)
+	time: 589 s = 9.8 m = 0.16 h (636.6 events/min; 1.57 mins/1kev, 94.26 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 6227 (files: 3)
+	time: 590 s = 9.8 m = 0.16 h (633.3 events/min; 1.58 mins/1kev, 94.75 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 6306 (files: 3)
+	time: 591 s = 9.8 m = 0.16 h (640.2 events/min; 1.56 mins/1kev, 93.72 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 6323 (files: 3)
+	time: 590 s = 9.8 m = 0.16 h (643.0 events/min; 1.56 mins/1kev, 93.31 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 6307 (files: 3)
+	time: 590 s = 9.8 m = 0.16 h (641.4 events/min; 1.56 mins/1kev, 93.55 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 6310 (files: 3)
+	time: 591 s = 9.8 m = 0.16 h (640.6 events/min; 1.56 mins/1kev, 93.66 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:12:25 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 6356 (files: 3)
+	time: 598 s = 10.0 m = 0.17 h (637.7 events/min; 1.57 mins/1kev, 94.08 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 6257 (files: 3)
+	time: 597 s = 9.9 m = 0.17 h (628.8 events/min; 1.59 mins/1kev, 95.41 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 6313 (files: 3)
+	time: 597 s = 9.9 m = 0.17 h (634.5 events/min; 1.58 mins/1kev, 94.57 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 6288 (files: 3)
+	time: 598 s = 10.0 m = 0.17 h (630.9 events/min; 1.59 mins/1kev, 95.10 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 6360 (files: 3)
+	time: 599 s = 10.0 m = 0.17 h (637.1 events/min; 1.57 mins/1kev, 94.18 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 6385 (files: 3)
+	time: 599 s = 10.0 m = 0.17 h (639.6 events/min; 1.56 mins/1kev, 93.81 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 6369 (files: 3)
+	time: 599 s = 10.0 m = 0.17 h (638.0 events/min; 1.57 mins/1kev, 94.05 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 6376 (files: 3)
+	time: 599 s = 10.0 m = 0.17 h (638.7 events/min; 1.57 mins/1kev, 93.95 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:12:34 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 6428 (files: 3)
+	time: 607 s = 10.1 m = 0.17 h (635.4 events/min; 1.57 mins/1kev, 94.43 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 6332 (files: 3)
+	time: 605 s = 10.1 m = 0.17 h (628.0 events/min; 1.59 mins/1kev, 95.55 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 6376 (files: 3)
+	time: 605 s = 10.1 m = 0.17 h (632.3 events/min; 1.58 mins/1kev, 94.89 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 6356 (files: 3)
+	time: 606 s = 10.1 m = 0.17 h (629.3 events/min; 1.59 mins/1kev, 95.34 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 6429 (files: 3)
+	time: 607 s = 10.1 m = 0.17 h (635.5 events/min; 1.57 mins/1kev, 94.42 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 6456 (files: 3)
+	time: 606 s = 10.1 m = 0.17 h (639.2 events/min; 1.56 mins/1kev, 93.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 6445 (files: 3)
+	time: 606 s = 10.1 m = 0.17 h (638.1 events/min; 1.57 mins/1kev, 94.03 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 6445 (files: 3)
+	time: 607 s = 10.1 m = 0.17 h (637.1 events/min; 1.57 mins/1kev, 94.18 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:12:41 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 6499 (files: 3)
+	time: 614 s = 10.2 m = 0.17 h (635.1 events/min; 1.57 mins/1kev, 94.48 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 6406 (files: 3)
+	time: 612 s = 10.2 m = 0.17 h (628.0 events/min; 1.59 mins/1kev, 95.54 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 6449 (files: 3)
+	time: 613 s = 10.2 m = 0.17 h (631.2 events/min; 1.58 mins/1kev, 95.05 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 6433 (files: 3)
+	time: 613 s = 10.2 m = 0.17 h (629.7 events/min; 1.59 mins/1kev, 95.29 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 6505 (files: 3)
+	time: 614 s = 10.2 m = 0.17 h (635.7 events/min; 1.57 mins/1kev, 94.39 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 6527 (files: 3)
+	time: 614 s = 10.2 m = 0.17 h (637.8 events/min; 1.57 mins/1kev, 94.07 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 6518 (files: 3)
+	time: 614 s = 10.2 m = 0.17 h (636.9 events/min; 1.57 mins/1kev, 94.20 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 6518 (files: 3)
+	time: 614 s = 10.2 m = 0.17 h (636.9 events/min; 1.57 mins/1kev, 94.20 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:12:48 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 6557 (files: 3)
+	time: 622 s = 10.4 m = 0.17 h (632.5 events/min; 1.58 mins/1kev, 94.86 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 6460 (files: 3)
+	time: 620 s = 10.3 m = 0.17 h (625.2 events/min; 1.60 mins/1kev, 95.98 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 6506 (files: 3)
+	time: 620 s = 10.3 m = 0.17 h (629.6 events/min; 1.59 mins/1kev, 95.30 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 6494 (files: 3)
+	time: 621 s = 10.3 m = 0.17 h (627.4 events/min; 1.59 mins/1kev, 95.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 6566 (files: 3)
+	time: 622 s = 10.4 m = 0.17 h (633.4 events/min; 1.58 mins/1kev, 94.73 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 6587 (files: 3)
+	time: 622 s = 10.4 m = 0.17 h (635.4 events/min; 1.57 mins/1kev, 94.43 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 6586 (files: 3)
+	time: 622 s = 10.4 m = 0.17 h (635.3 events/min; 1.57 mins/1kev, 94.44 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 6583 (files: 3)
+	time: 623 s = 10.4 m = 0.17 h (634.0 events/min; 1.58 mins/1kev, 94.64 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:12:57 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 6623 (files: 3)
+	time: 631 s = 10.5 m = 0.18 h (629.8 events/min; 1.59 mins/1kev, 95.27 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 6526 (files: 3)
+	time: 629 s = 10.5 m = 0.17 h (622.5 events/min; 1.61 mins/1kev, 96.38 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 6571 (files: 3)
+	time: 629 s = 10.5 m = 0.17 h (626.8 events/min; 1.60 mins/1kev, 95.72 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 6551 (files: 3)
+	time: 630 s = 10.5 m = 0.17 h (623.9 events/min; 1.60 mins/1kev, 96.17 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 6630 (files: 3)
+	time: 631 s = 10.5 m = 0.18 h (630.4 events/min; 1.59 mins/1kev, 95.17 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 6645 (files: 3)
+	time: 631 s = 10.5 m = 0.18 h (631.9 events/min; 1.58 mins/1kev, 94.96 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 6649 (files: 3)
+	time: 631 s = 10.5 m = 0.18 h (632.2 events/min; 1.58 mins/1kev, 94.90 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 6643 (files: 3)
+	time: 631 s = 10.5 m = 0.18 h (631.7 events/min; 1.58 mins/1kev, 94.99 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:13:06 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 6695 (files: 3)
+	time: 639 s = 10.7 m = 0.18 h (628.6 events/min; 1.59 mins/1kev, 95.44 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 6591 (files: 3)
+	time: 638 s = 10.6 m = 0.18 h (619.8 events/min; 1.61 mins/1kev, 96.80 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 6644 (files: 3)
+	time: 638 s = 10.6 m = 0.18 h (624.8 events/min; 1.60 mins/1kev, 96.03 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 6623 (files: 3)
+	time: 638 s = 10.6 m = 0.18 h (622.9 events/min; 1.61 mins/1kev, 96.33 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 6700 (files: 3)
+	time: 639 s = 10.7 m = 0.18 h (629.1 events/min; 1.59 mins/1kev, 95.37 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 6709 (files: 3)
+	time: 639 s = 10.7 m = 0.18 h (630.0 events/min; 1.59 mins/1kev, 95.25 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 6691 (files: 3)
+	time: 637 s = 10.6 m = 0.18 h (630.2 events/min; 1.59 mins/1kev, 95.20 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 6691 (files: 4)
+	time: 637 s = 10.6 m = 0.18 h (630.2 events/min; 1.59 mins/1kev, 95.20 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:13:14 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 6783 (files: 3)
+	time: 647 s = 10.8 m = 0.18 h (629.0 events/min; 1.59 mins/1kev, 95.39 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 6676 (files: 3)
+	time: 645 s = 10.8 m = 0.18 h (621.0 events/min; 1.61 mins/1kev, 96.61 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 6727 (files: 3)
+	time: 645 s = 10.8 m = 0.18 h (625.8 events/min; 1.60 mins/1kev, 95.88 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 6703 (files: 3)
+	time: 646 s = 10.8 m = 0.18 h (622.6 events/min; 1.61 mins/1kev, 96.37 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 6740 (files: 4)
+	time: 647 s = 10.8 m = 0.18 h (625.0 events/min; 1.60 mins/1kev, 95.99 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 6793 (files: 3)
+	time: 646 s = 10.8 m = 0.18 h (630.9 events/min; 1.58 mins/1kev, 95.10 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 6753 (files: 4)
+	time: 647 s = 10.8 m = 0.18 h (626.2 events/min; 1.60 mins/1kev, 95.81 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 6752 (files: 4)
+	time: 647 s = 10.8 m = 0.18 h (626.2 events/min; 1.60 mins/1kev, 95.82 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:13:21 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 6827 (files: 4)
+	time: 654 s = 10.9 m = 0.18 h (626.3 events/min; 1.60 mins/1kev, 95.80 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 6756 (files: 3)
+	time: 652 s = 10.9 m = 0.18 h (621.7 events/min; 1.61 mins/1kev, 96.51 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 6804 (files: 3)
+	time: 653 s = 10.9 m = 0.18 h (625.2 events/min; 1.60 mins/1kev, 95.97 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 6774 (files: 3)
+	time: 653 s = 10.9 m = 0.18 h (622.4 events/min; 1.61 mins/1kev, 96.40 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 6818 (files: 4)
+	time: 654 s = 10.9 m = 0.18 h (625.5 events/min; 1.60 mins/1kev, 95.92 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 6872 (files: 3)
+	time: 654 s = 10.9 m = 0.18 h (630.5 events/min; 1.59 mins/1kev, 95.17 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 6831 (files: 4)
+	time: 654 s = 10.9 m = 0.18 h (626.7 events/min; 1.60 mins/1kev, 95.74 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 6829 (files: 4)
+	time: 654 s = 10.9 m = 0.18 h (626.5 events/min; 1.60 mins/1kev, 95.77 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:13:29 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 6907 (files: 4)
+	time: 662 s = 11.0 m = 0.18 h (626.0 events/min; 1.60 mins/1kev, 95.84 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 6804 (files: 4)
+	time: 657 s = 10.9 m = 0.18 h (621.4 events/min; 1.61 mins/1kev, 96.56 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 6848 (files: 4)
+	time: 660 s = 11.0 m = 0.18 h (622.5 events/min; 1.61 mins/1kev, 96.38 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 6820 (files: 4)
+	time: 660 s = 11.0 m = 0.18 h (620.0 events/min; 1.61 mins/1kev, 96.77 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 6907 (files: 4)
+	time: 662 s = 11.0 m = 0.18 h (626.0 events/min; 1.60 mins/1kev, 95.84 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 6918 (files: 4)
+	time: 661 s = 11.0 m = 0.18 h (628.0 events/min; 1.59 mins/1kev, 95.55 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 6913 (files: 4)
+	time: 661 s = 11.0 m = 0.18 h (627.5 events/min; 1.59 mins/1kev, 95.62 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 6916 (files: 4)
+	time: 662 s = 11.0 m = 0.18 h (626.8 events/min; 1.60 mins/1kev, 95.72 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:13:36 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 6980 (files: 4)
+	time: 669 s = 11.2 m = 0.19 h (626.0 events/min; 1.60 mins/1kev, 95.85 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 6883 (files: 4)
+	time: 668 s = 11.1 m = 0.19 h (618.2 events/min; 1.62 mins/1kev, 97.05 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 6937 (files: 4)
+	time: 668 s = 11.1 m = 0.19 h (623.1 events/min; 1.60 mins/1kev, 96.30 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 6905 (files: 4)
+	time: 669 s = 11.2 m = 0.19 h (619.3 events/min; 1.61 mins/1kev, 96.89 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 6987 (files: 4)
+	time: 670 s = 11.2 m = 0.19 h (625.7 events/min; 1.60 mins/1kev, 95.89 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 6998 (files: 4)
+	time: 669 s = 11.2 m = 0.19 h (627.6 events/min; 1.59 mins/1kev, 95.60 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 6988 (files: 4)
+	time: 669 s = 11.2 m = 0.19 h (626.7 events/min; 1.60 mins/1kev, 95.74 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 6998 (files: 4)
+	time: 669 s = 11.2 m = 0.19 h (627.6 events/min; 1.59 mins/1kev, 95.60 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:13:44 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 7067 (files: 4)
+	time: 677 s = 11.3 m = 0.19 h (626.3 events/min; 1.60 mins/1kev, 95.80 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 6961 (files: 4)
+	time: 675 s = 11.2 m = 0.19 h (618.8 events/min; 1.62 mins/1kev, 96.97 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 7016 (files: 4)
+	time: 675 s = 11.2 m = 0.19 h (623.6 events/min; 1.60 mins/1kev, 96.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 6981 (files: 4)
+	time: 676 s = 11.3 m = 0.19 h (619.6 events/min; 1.61 mins/1kev, 96.83 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 7062 (files: 4)
+	time: 677 s = 11.3 m = 0.19 h (625.9 events/min; 1.60 mins/1kev, 95.87 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 7066 (files: 4)
+	time: 676 s = 11.3 m = 0.19 h (627.2 events/min; 1.59 mins/1kev, 95.67 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 7068 (files: 4)
+	time: 676 s = 11.3 m = 0.19 h (627.3 events/min; 1.59 mins/1kev, 95.64 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 7085 (files: 4)
+	time: 677 s = 11.3 m = 0.19 h (627.9 events/min; 1.59 mins/1kev, 95.55 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:13:51 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 7149 (files: 4)
+	time: 684 s = 11.4 m = 0.19 h (627.1 events/min; 1.59 mins/1kev, 95.68 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 7035 (files: 4)
+	time: 683 s = 11.4 m = 0.19 h (618.0 events/min; 1.62 mins/1kev, 97.09 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 7090 (files: 4)
+	time: 683 s = 11.4 m = 0.19 h (622.8 events/min; 1.61 mins/1kev, 96.33 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 7065 (files: 4)
+	time: 683 s = 11.4 m = 0.19 h (620.6 events/min; 1.61 mins/1kev, 96.67 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 7151 (files: 4)
+	time: 685 s = 11.4 m = 0.19 h (626.4 events/min; 1.60 mins/1kev, 95.79 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 7149 (files: 4)
+	time: 684 s = 11.4 m = 0.19 h (627.1 events/min; 1.59 mins/1kev, 95.68 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 7142 (files: 4)
+	time: 684 s = 11.4 m = 0.19 h (626.5 events/min; 1.60 mins/1kev, 95.77 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 7162 (files: 4)
+	time: 685 s = 11.4 m = 0.19 h (627.3 events/min; 1.59 mins/1kev, 95.64 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:13:59 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 7227 (files: 4)
+	time: 692 s = 11.5 m = 0.19 h (626.6 events/min; 1.60 mins/1kev, 95.75 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 7123 (files: 4)
+	time: 691 s = 11.5 m = 0.19 h (618.5 events/min; 1.62 mins/1kev, 97.01 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 7182 (files: 4)
+	time: 691 s = 11.5 m = 0.19 h (623.6 events/min; 1.60 mins/1kev, 96.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 7148 (files: 4)
+	time: 691 s = 11.5 m = 0.19 h (620.7 events/min; 1.61 mins/1kev, 96.67 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 7241 (files: 4)
+	time: 692 s = 11.5 m = 0.19 h (627.8 events/min; 1.59 mins/1kev, 95.57 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 7236 (files: 4)
+	time: 692 s = 11.5 m = 0.19 h (627.4 events/min; 1.59 mins/1kev, 95.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 7225 (files: 4)
+	time: 692 s = 11.5 m = 0.19 h (626.4 events/min; 1.60 mins/1kev, 95.78 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 7253 (files: 4)
+	time: 692 s = 11.5 m = 0.19 h (628.9 events/min; 1.59 mins/1kev, 95.41 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:14:07 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 7319 (files: 4)
+	time: 700 s = 11.7 m = 0.19 h (627.3 events/min; 1.59 mins/1kev, 95.64 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 7218 (files: 4)
+	time: 698 s = 11.6 m = 0.19 h (620.5 events/min; 1.61 mins/1kev, 96.70 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 7272 (files: 4)
+	time: 698 s = 11.6 m = 0.19 h (625.1 events/min; 1.60 mins/1kev, 95.98 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 7241 (files: 4)
+	time: 699 s = 11.7 m = 0.19 h (621.5 events/min; 1.61 mins/1kev, 96.53 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 7337 (files: 4)
+	time: 700 s = 11.7 m = 0.19 h (628.9 events/min; 1.59 mins/1kev, 95.41 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 7327 (files: 4)
+	time: 699 s = 11.7 m = 0.19 h (628.9 events/min; 1.59 mins/1kev, 95.40 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 7317 (files: 4)
+	time: 699 s = 11.7 m = 0.19 h (628.1 events/min; 1.59 mins/1kev, 95.53 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 7342 (files: 4)
+	time: 700 s = 11.7 m = 0.19 h (629.3 events/min; 1.59 mins/1kev, 95.34 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:14:14 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 7410 (files: 4)
+	time: 707 s = 11.8 m = 0.20 h (628.9 events/min; 1.59 mins/1kev, 95.41 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 7321 (files: 4)
+	time: 706 s = 11.8 m = 0.20 h (622.2 events/min; 1.61 mins/1kev, 96.43 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 7357 (files: 4)
+	time: 706 s = 11.8 m = 0.20 h (625.2 events/min; 1.60 mins/1kev, 95.96 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 7338 (files: 4)
+	time: 706 s = 11.8 m = 0.20 h (623.6 events/min; 1.60 mins/1kev, 96.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 7434 (files: 4)
+	time: 708 s = 11.8 m = 0.20 h (630.0 events/min; 1.59 mins/1kev, 95.24 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 7425 (files: 4)
+	time: 707 s = 11.8 m = 0.20 h (630.1 events/min; 1.59 mins/1kev, 95.22 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 7409 (files: 4)
+	time: 707 s = 11.8 m = 0.20 h (628.8 events/min; 1.59 mins/1kev, 95.42 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 7448 (files: 4)
+	time: 708 s = 11.8 m = 0.20 h (631.2 events/min; 1.58 mins/1kev, 95.06 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:14:22 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 7508 (files: 4)
+	time: 715 s = 11.9 m = 0.20 h (630.0 events/min; 1.59 mins/1kev, 95.23 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 7411 (files: 4)
+	time: 713 s = 11.9 m = 0.20 h (623.6 events/min; 1.60 mins/1kev, 96.21 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 7449 (files: 4)
+	time: 714 s = 11.9 m = 0.20 h (626.0 events/min; 1.60 mins/1kev, 95.85 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 7429 (files: 4)
+	time: 714 s = 11.9 m = 0.20 h (624.3 events/min; 1.60 mins/1kev, 96.11 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 7529 (files: 4)
+	time: 716 s = 11.9 m = 0.20 h (630.9 events/min; 1.58 mins/1kev, 95.10 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 7522 (files: 4)
+	time: 715 s = 11.9 m = 0.20 h (631.2 events/min; 1.58 mins/1kev, 95.05 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 7503 (files: 4)
+	time: 715 s = 11.9 m = 0.20 h (629.6 events/min; 1.59 mins/1kev, 95.30 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 7534 (files: 4)
+	time: 715 s = 11.9 m = 0.20 h (632.2 events/min; 1.58 mins/1kev, 94.90 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:14:30 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 7605 (files: 4)
+	time: 723 s = 12.1 m = 0.20 h (631.1 events/min; 1.58 mins/1kev, 95.07 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 7498 (files: 4)
+	time: 721 s = 12.0 m = 0.20 h (624.0 events/min; 1.60 mins/1kev, 96.16 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 7543 (files: 4)
+	time: 722 s = 12.0 m = 0.20 h (626.8 events/min; 1.60 mins/1kev, 95.72 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 7515 (files: 4)
+	time: 722 s = 12.0 m = 0.20 h (624.5 events/min; 1.60 mins/1kev, 96.07 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 7612 (files: 4)
+	time: 723 s = 12.1 m = 0.20 h (631.7 events/min; 1.58 mins/1kev, 94.98 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 7605 (files: 4)
+	time: 723 s = 12.1 m = 0.20 h (631.1 events/min; 1.58 mins/1kev, 95.07 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 7591 (files: 4)
+	time: 723 s = 12.1 m = 0.20 h (630.0 events/min; 1.59 mins/1kev, 95.24 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 7620 (files: 4)
+	time: 723 s = 12.1 m = 0.20 h (632.4 events/min; 1.58 mins/1kev, 94.88 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:14:38 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 7697 (files: 4)
+	time: 731 s = 12.2 m = 0.20 h (631.8 events/min; 1.58 mins/1kev, 94.97 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 7590 (files: 4)
+	time: 729 s = 12.2 m = 0.20 h (624.7 events/min; 1.60 mins/1kev, 96.05 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 7630 (files: 4)
+	time: 729 s = 12.2 m = 0.20 h (628.0 events/min; 1.59 mins/1kev, 95.54 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 7610 (files: 4)
+	time: 729 s = 12.2 m = 0.20 h (626.3 events/min; 1.60 mins/1kev, 95.80 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 7695 (files: 4)
+	time: 731 s = 12.2 m = 0.20 h (631.6 events/min; 1.58 mins/1kev, 95.00 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 7703 (files: 4)
+	time: 730 s = 12.2 m = 0.20 h (633.1 events/min; 1.58 mins/1kev, 94.77 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 7688 (files: 4)
+	time: 731 s = 12.2 m = 0.20 h (631.0 events/min; 1.58 mins/1kev, 95.08 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 7718 (files: 4)
+	time: 731 s = 12.2 m = 0.20 h (633.5 events/min; 1.58 mins/1kev, 94.71 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:14:45 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 7791 (files: 4)
+	time: 739 s = 12.3 m = 0.21 h (632.6 events/min; 1.58 mins/1kev, 94.85 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 7687 (files: 4)
+	time: 737 s = 12.3 m = 0.20 h (625.8 events/min; 1.60 mins/1kev, 95.88 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 7728 (files: 4)
+	time: 737 s = 12.3 m = 0.20 h (629.1 events/min; 1.59 mins/1kev, 95.37 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 7715 (files: 4)
+	time: 737 s = 12.3 m = 0.20 h (628.1 events/min; 1.59 mins/1kev, 95.53 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 7796 (files: 4)
+	time: 739 s = 12.3 m = 0.21 h (633.0 events/min; 1.58 mins/1kev, 94.79 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 7806 (files: 4)
+	time: 738 s = 12.3 m = 0.20 h (634.6 events/min; 1.58 mins/1kev, 94.54 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 7782 (files: 4)
+	time: 738 s = 12.3 m = 0.20 h (632.7 events/min; 1.58 mins/1kev, 94.83 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 7817 (files: 4)
+	time: 738 s = 12.3 m = 0.20 h (635.5 events/min; 1.57 mins/1kev, 94.41 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:14:53 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 7883 (files: 4)
+	time: 746 s = 12.4 m = 0.21 h (634.0 events/min; 1.58 mins/1kev, 94.63 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 7780 (files: 4)
+	time: 745 s = 12.4 m = 0.21 h (626.6 events/min; 1.60 mins/1kev, 95.76 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 7819 (files: 4)
+	time: 745 s = 12.4 m = 0.21 h (629.7 events/min; 1.59 mins/1kev, 95.28 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 7799 (files: 4)
+	time: 745 s = 12.4 m = 0.21 h (628.1 events/min; 1.59 mins/1kev, 95.53 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 7884 (files: 4)
+	time: 747 s = 12.4 m = 0.21 h (633.3 events/min; 1.58 mins/1kev, 94.75 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 7897 (files: 4)
+	time: 746 s = 12.4 m = 0.21 h (635.1 events/min; 1.57 mins/1kev, 94.47 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 7881 (files: 4)
+	time: 747 s = 12.4 m = 0.21 h (633.0 events/min; 1.58 mins/1kev, 94.78 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 7909 (files: 4)
+	time: 747 s = 12.4 m = 0.21 h (635.3 events/min; 1.57 mins/1kev, 94.45 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:15:01 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 7980 (files: 4)
+	time: 754 s = 12.6 m = 0.21 h (635.0 events/min; 1.57 mins/1kev, 94.49 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 7876 (files: 4)
+	time: 753 s = 12.6 m = 0.21 h (627.6 events/min; 1.59 mins/1kev, 95.61 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 7917 (files: 4)
+	time: 753 s = 12.6 m = 0.21 h (630.8 events/min; 1.59 mins/1kev, 95.11 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 7897 (files: 4)
+	time: 753 s = 12.6 m = 0.21 h (629.2 events/min; 1.59 mins/1kev, 95.35 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 7981 (files: 4)
+	time: 755 s = 12.6 m = 0.21 h (634.3 events/min; 1.58 mins/1kev, 94.60 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 7998 (files: 4)
+	time: 754 s = 12.6 m = 0.21 h (636.4 events/min; 1.57 mins/1kev, 94.27 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 7975 (files: 4)
+	time: 754 s = 12.6 m = 0.21 h (634.6 events/min; 1.58 mins/1kev, 94.55 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 8005 (files: 4)
+	time: 755 s = 12.6 m = 0.21 h (636.2 events/min; 1.57 mins/1kev, 94.32 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:15:09 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 8080 (files: 4)
+	time: 762 s = 12.7 m = 0.21 h (636.2 events/min; 1.57 mins/1kev, 94.31 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 7972 (files: 4)
+	time: 760 s = 12.7 m = 0.21 h (629.4 events/min; 1.59 mins/1kev, 95.33 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 8008 (files: 4)
+	time: 761 s = 12.7 m = 0.21 h (631.4 events/min; 1.58 mins/1kev, 95.03 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 7994 (files: 4)
+	time: 761 s = 12.7 m = 0.21 h (630.3 events/min; 1.59 mins/1kev, 95.20 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 8071 (files: 4)
+	time: 762 s = 12.7 m = 0.21 h (635.5 events/min; 1.57 mins/1kev, 94.41 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 8094 (files: 4)
+	time: 762 s = 12.7 m = 0.21 h (637.3 events/min; 1.57 mins/1kev, 94.14 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 8070 (files: 4)
+	time: 762 s = 12.7 m = 0.21 h (635.4 events/min; 1.57 mins/1kev, 94.42 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 8101 (files: 4)
+	time: 762 s = 12.7 m = 0.21 h (637.9 events/min; 1.57 mins/1kev, 94.06 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:15:17 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 8171 (files: 4)
+	time: 770 s = 12.8 m = 0.21 h (636.7 events/min; 1.57 mins/1kev, 94.24 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 8058 (files: 4)
+	time: 768 s = 12.8 m = 0.21 h (629.5 events/min; 1.59 mins/1kev, 95.31 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 8100 (files: 4)
+	time: 769 s = 12.8 m = 0.21 h (632.0 events/min; 1.58 mins/1kev, 94.94 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 8082 (files: 4)
+	time: 769 s = 12.8 m = 0.21 h (630.6 events/min; 1.59 mins/1kev, 95.15 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 8155 (files: 4)
+	time: 770 s = 12.8 m = 0.21 h (635.5 events/min; 1.57 mins/1kev, 94.42 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 8188 (files: 4)
+	time: 769 s = 12.8 m = 0.21 h (638.9 events/min; 1.57 mins/1kev, 93.92 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 8155 (files: 4)
+	time: 770 s = 12.8 m = 0.21 h (635.5 events/min; 1.57 mins/1kev, 94.42 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 8190 (files: 4)
+	time: 770 s = 12.8 m = 0.21 h (638.2 events/min; 1.57 mins/1kev, 94.02 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:15:24 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 8240 (files: 4)
+	time: 778 s = 13.0 m = 0.22 h (635.5 events/min; 1.57 mins/1kev, 94.42 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 8130 (files: 4)
+	time: 776 s = 12.9 m = 0.22 h (628.6 events/min; 1.59 mins/1kev, 95.45 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 8173 (files: 4)
+	time: 777 s = 12.9 m = 0.22 h (631.1 events/min; 1.58 mins/1kev, 95.07 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 8154 (files: 4)
+	time: 777 s = 12.9 m = 0.22 h (629.7 events/min; 1.59 mins/1kev, 95.29 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 8225 (files: 4)
+	time: 779 s = 13.0 m = 0.22 h (633.5 events/min; 1.58 mins/1kev, 94.71 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 8259 (files: 4)
+	time: 778 s = 13.0 m = 0.22 h (636.9 events/min; 1.57 mins/1kev, 94.20 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 8230 (files: 4)
+	time: 779 s = 13.0 m = 0.22 h (633.9 events/min; 1.58 mins/1kev, 94.65 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 8263 (files: 4)
+	time: 779 s = 13.0 m = 0.22 h (636.4 events/min; 1.57 mins/1kev, 94.28 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:15:34 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 8316 (files: 4)
+	time: 787 s = 13.1 m = 0.22 h (634.0 events/min; 1.58 mins/1kev, 94.64 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 8208 (files: 4)
+	time: 785 s = 13.1 m = 0.22 h (627.4 events/min; 1.59 mins/1kev, 95.64 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 8245 (files: 4)
+	time: 786 s = 13.1 m = 0.22 h (629.4 events/min; 1.59 mins/1kev, 95.33 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 8234 (files: 4)
+	time: 786 s = 13.1 m = 0.22 h (628.5 events/min; 1.59 mins/1kev, 95.46 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 8302 (files: 4)
+	time: 788 s = 13.1 m = 0.22 h (632.1 events/min; 1.58 mins/1kev, 94.92 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 8338 (files: 4)
+	time: 787 s = 13.1 m = 0.22 h (635.7 events/min; 1.57 mins/1kev, 94.39 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 8315 (files: 4)
+	time: 787 s = 13.1 m = 0.22 h (633.9 events/min; 1.58 mins/1kev, 94.65 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 8341 (files: 4)
+	time: 788 s = 13.1 m = 0.22 h (635.1 events/min; 1.57 mins/1kev, 94.47 ms/ev)
+
+[H[2J[3JAt Tue Oct  1 19:15:42 CEST 2024, jobs are still running...
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+runPerformanceNTuple_TTbar_PU200_job1.log : 
+	events: 8384 (files: 4)
+	time: 796 s = 13.3 m = 0.22 h (632.0 events/min; 1.58 mins/1kev, 94.94 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job2.log : 
+	events: 8285 (files: 4)
+	time: 794 s = 13.2 m = 0.22 h (626.1 events/min; 1.60 mins/1kev, 95.84 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job3.log : 
+	events: 8321 (files: 4)
+	time: 794 s = 13.2 m = 0.22 h (628.8 events/min; 1.59 mins/1kev, 95.42 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job4.log : 
+	events: 8313 (files: 4)
+	time: 794 s = 13.2 m = 0.22 h (628.2 events/min; 1.59 mins/1kev, 95.51 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job5.log : 
+	events: 8384 (files: 4)
+	time: 796 s = 13.3 m = 0.22 h (632.0 events/min; 1.58 mins/1kev, 94.94 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job6.log : 
+	events: 8419 (files: 4)
+	time: 795 s = 13.2 m = 0.22 h (635.4 events/min; 1.57 mins/1kev, 94.43 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job7.log : 
+	events: 8398 (files: 4)
+	time: 796 s = 13.3 m = 0.22 h (633.0 events/min; 1.58 mins/1kev, 94.78 ms/ev)
+
+runPerformanceNTuple_TTbar_PU200_job8.log : 
+	events: 8420 (files: 4)
+	time: 796 s = 13.3 m = 0.22 h (634.7 events/min; 1.58 mins/1kev, 94.54 ms/ev)
+

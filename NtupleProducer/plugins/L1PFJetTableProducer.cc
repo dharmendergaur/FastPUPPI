@@ -56,7 +56,7 @@ class L1PFJetTableProducer : public edm::global::EDProducer<>  {
 L1PFJetTableProducer::L1PFJetTableProducer(const edm::ParameterSet& iConfig) :
     gen_(consumes<reco::CandidateView>(iConfig.getParameter<edm::InputTag>("gen"))),
     sel_(iConfig.getParameter<std::string>("commonSel"), true),
-    dr2Max_(std::pow(iConfig.getParameter<double>("drMax"), 2)),
+    dr2Max_(std::pow(0.4, 2)),
     minPtRatio_(iConfig.getParameter<double>("minRecoPtOverGenPt"))
 {
     edm::ParameterSet jets = iConfig.getParameter<edm::ParameterSet>("jets");
@@ -83,7 +83,7 @@ L1PFJetTableProducer::produce(edm::StreamID id, edm::Event& iEvent, const edm::E
 {
     edm::Handle<reco::CandidateView> gens;
     iEvent.getByToken(gen_, gens);
-
+    std::cout<< "Delta R max squared: "<< dr2Max_ <<std::endl;
     edm::Handle<reco::CandidateView> src;
     std::vector<const reco::Candidate *> selected, matched;
     std::vector<float> vals_pt, vals_eta, vals_phi, vals_mass;
@@ -160,7 +160,7 @@ L1PFJetTableProducer::produce(edm::StreamID id, edm::Event& iEvent, const edm::E
                     vals_phi[i] = matched[i]->pt();
                     vals_eta[i] = matched[i]->pt();
                     vals_eta[i] = deltaR(*selected[i], *matched[i]);;
-                    vals_eta_gen[i] = matched[i]->eta_std();
+                    vals_eta_gen[i] = matched[i]->eta();
                     vals_phi_gen[i] = matched[i]->phi();
                     vals_mass_gen[i] = matched[i]->mass();
                 } else {

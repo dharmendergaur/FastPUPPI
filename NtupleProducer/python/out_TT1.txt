@@ -1,0 +1,5 @@
+nohup: ignoring input
+Illegal division by zero at /eos/home-d/ddharmen/updated_cmssw/CMSSW_14_0_0_pre3/src/FastPUPPI/NtupleProducer/python/scripts//cmsSplit.pl line 290.
+Using input files from /eos/cms/store/cmst3/group/l1tr/cerminar/14_0_X/fpinputs_131X/v3/_PU200/inputs131X_*root
+grep: runPerformanceNTuple__PU200_local.sh: No such file or directory
+bash: runPerformanceNTuple__PU200_cleanup.sh: No such file or directory
